@@ -75,3 +75,23 @@ Goal: To achieve the review of the application of the following data structures 
 
 ## Part 6
 
+- [ ] [Medium 5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
+- [ ] [Medium 8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)
+- [ ] [Medium 54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
+- [ ] [Medium 62. Unique Paths](https://leetcode.com/problems/unique-paths/)
+- [ ] [Medium 78. Subsets](https://leetcode.com/problems/subsets/)
+- [ ] [Medium 105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+- [ ] [Medium 139. Word Break](https://leetcode.com/problems/word-break/)
+- [ ] [Medium 199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)
+- [ ] [Medium 416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
+
+## Part 7
+
+- [ ] [Medium ]()
+- [ ] [Medium ]()
+- [ ] [Medium ]()
+- [ ] [Medium ]()
+- [ ] [Medium ]()
+- [ ] [Medium ]()
+- [ ] [Medium ]()
+- [ ] [Medium ]()
