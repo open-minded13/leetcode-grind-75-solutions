@@ -11,14 +11,14 @@ Goal: To achieve the review of the application of the following data structures 
 
 ## Part 1
 
-- [x] [Easy 1. Two Sum](https://leetcode.com/problems/two-sum/) | Also in Blind 75
+- [x] [Easy 1. Two Sum](https://leetcode.com/problems/two-sum/) (Blind 75 also picked)
 - [ ] [Easy 20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
-- [x] [Easy 21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Also in the Blind 75 list
+- [x] [Easy 21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) (Blind 75 also picked)
 - [ ] [Easy 110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
-- [x] [Easy 121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Also in Blind 75
+- [x] [Easy 121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) (Blind 75 also picked)
 - [ ] [Easy 125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
-- [x] [Easy 141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Algo: Floyd's Cycle Finding
-- [x] [Easy 226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Also in Blind 75
+- [x] [Easy 141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) (Blind 75 also picked) | Algo: Floyd's Cycle Finding
+- [x] [Easy 226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) (Blind 75 also picked)
 - [ ] [Easy 232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
 - [ ] [Easy 242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
 - [ ] [Easy 704. Binary Search](https://leetcode.com/problems/binary-search/)
