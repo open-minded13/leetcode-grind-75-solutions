@@ -42,7 +42,25 @@ Goal: To achieve the review of the application of the following data structures 
 
 ## Part 3
 
+- [ ] [Medium 57. Insert Interval](https://leetcode.com/problems/insert-interval/)
+- [ ] [Medium 542. 01 Matrix](https://leetcode.com/problems/01-matrix/)
+- [ ] [Medium 973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)
+- [ ] [Medium 3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+- [x] [Medium 15. 3Sum](https://leetcode.com/problems/3sum/) (picked in Blind 75) | Algo: Two-Pointer Technique and Dictionary (Hashmap); DS: Hashing
+- [ ] [Medium 102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+- [ ] [Medium 133. Clone Graph](https://leetcode.com/problems/clone-graph/)
+- [ ] [Medium 150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)
 
+## Part 4
 
+- [ ] [Medium 98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
+- [ ] [Medium 155. Min Stack](https://leetcode.com/problems/min-stack/)
+- [ ] [Medium 200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
+- [ ] [Medium 207. Course Schedule](https://leetcode.com/problems/course-schedule/)
+- [ ] [Medium 208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
+- [x] [Medium 238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) (picked in Blind 75)
+- [ ] [Medium 322. Coin Change](https://leetcode.com/problems/coin-change/)
+- [ ] [Medium 994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
 
+## Part 5
 
