@@ -64,3 +64,14 @@ Goal: To achieve the review of the application of the following data structures 
 
 ## Part 5
 
+- [x] [Medium 33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) (picked in Blind 75)
+- [ ] [Medium 39. Combination Sum](https://leetcode.com/problems/combination-sum/)
+- [ ] [Medium 46. Permutations](https://leetcode.com/problems/permutations/)
+- [ ] [Medium 56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)
+- [ ] [Medium 75. Sort Colors](https://leetcode.com/problems/sort-colors/)
+- [ ] [Medium 236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+- [ ] [Medium 721. Accounts Merge](https://leetcode.com/problems/accounts-merge/)
+- [ ] [Medium 981. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)
+
+## Part 6
+
