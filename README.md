@@ -11,14 +11,14 @@ Goal: To achieve the review of the application of the following data structures 
 
 ## Part 1
 
-- [x] [Easy 1. Two Sum](https://leetcode.com/problems/two-sum/)
+- [x] [Easy 1. Two Sum](https://leetcode.com/problems/two-sum/) | Also in Blind 75
 - [ ] [Easy 20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
-- [x] [Easy 21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+- [x] [Easy 21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Also in the Blind 75 list
 - [ ] [Easy 110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
-- [x] [Easy 121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+- [x] [Easy 121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Also in Blind 75
 - [ ] [Easy 125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 - [x] [Easy 141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Algo: Floyd's Cycle Finding
-- [x] [Easy 226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
+- [x] [Easy 226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Also in Blind 75
 - [ ] [Easy 232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
 - [ ] [Easy 242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
 - [ ] [Easy 704. Binary Search](https://leetcode.com/problems/binary-search/)
@@ -29,16 +29,16 @@ Goal: To achieve the review of the application of the following data structures 
 
 - [ ] [Easy 67. Add Binary](https://leetcode.com/problems/add-binary/)
 - [ ] [Easy 70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
-- [x] [Easy 104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Algo: Depth-First Search
+- [x] [Easy 104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Algo: Depth-First Search | Also in Blind 75
 - [ ] [Easy 169. Majority Element](https://leetcode.com/problems/majority-element/)
-- [x] [Easy 206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+- [x] [Easy 206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Also in Blind 75
 - [ ] [Easy 217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 - [ ] [Easy 278. First Bad Version](https://leetcode.com/problems/first-bad-version/)
 - [ ] [Easy 383. Ransom Note](https://leetcode.com/problems/ransom-note/)
 - [ ] [Easy 409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)
 - [ ] [Easy 543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
 - [ ] [Easy 876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
-- [x] [Medium 53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Algo: Kadane's Algo
+- [x] [Medium 53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Algo: Kadane's Algo | Also in Blind 75
 
 ## Part 3
 
