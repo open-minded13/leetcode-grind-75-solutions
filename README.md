@@ -87,11 +87,23 @@ Goal: To achieve the review of the application of the following data structures 
 
 ## Part 7
 
-- [ ] [Medium ]()
-- [ ] [Medium ]()
-- [ ] [Medium ]()
-- [ ] [Medium ]()
-- [ ] [Medium ]()
-- [ ] [Medium ]()
-- [ ] [Medium ]()
-- [ ] [Medium ]()
+- [x] [Medium 11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) (picked in Blind 75)
+- [ ] [Medium 17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+- [ ] [Medium 79. Word Search](https://leetcode.com/problems/word-search/)
+- [ ] [Medium 146. LRU Cache](https://leetcode.com/problems/lru-cache/)
+- [ ] [Medium 310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)
+- [ ] [Medium 438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
+- [ ] [Medium 621. Task Scheduler](https://leetcode.com/problems/task-scheduler/)
+
+## Part 8
+
+- [ ] [Medium 230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
+- [ ] [Hard 23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
+- [ ] [Hard 42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
+- [ ] [Hard 76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
+- [ ] [Hard 84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
+- [ ] [Hard 127. Word Ladder](https://leetcode.com/problems/word-ladder/)
+- [ ] [Hard 224. Basic Calculator](https://leetcode.com/problems/basic-calculator/)
+- [ ] [Hard 295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
+- [ ] [Hard 297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
+- [ ] [Hard 1235. Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)
