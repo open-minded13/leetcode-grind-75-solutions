@@ -13,6 +13,8 @@ class Solution:
             if char == "(" or char == "{" or char == "[":
                 stack.append(char)
             else:
+                # Using `if not stack` is critical, or `the stack[-1] == "("` judgement will generate an error.
+                # IndexError: list index out of range
                 if not stack:
                     return False
                 if char == ")" and stack[-1] == "(":
