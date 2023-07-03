@@ -42,14 +42,14 @@ Goal: To achieve the review of the application of the following data structures 
 
 ## Part 3
 
-- [ ] [Medium 57. Insert Interval](https://leetcode.com/problems/insert-interval/)
-- [ ] [Medium 542. 01 Matrix](https://leetcode.com/problems/01-matrix/)
-- [ ] [Medium 973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)
 - [ ] [Medium 3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 - [x] [Medium 15. 3Sum](https://leetcode.com/problems/3sum/) (picked in Blind 75) | Algo: Two-Pointer Technique and Dictionary (Hashmap); DS: Hashing
+- [ ] [Medium 57. Insert Interval](https://leetcode.com/problems/insert-interval/)
 - [ ] [Medium 102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 - [ ] [Medium 133. Clone Graph](https://leetcode.com/problems/clone-graph/)
 - [ ] [Medium 150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)
+- [ ] [Medium 542. 01 Matrix](https://leetcode.com/problems/01-matrix/)
+- [ ] [Medium 973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)
 
 ## Part 4
 
