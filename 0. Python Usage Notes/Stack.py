@@ -1,3 +1,5 @@
+# Date of Last Practice: 31th Aug 2023
+
 # In Python, you can use the built-in list data type as a stack directly,
 # without the need to create a separate Stack class.
 stack_list = []
