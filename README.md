@@ -14,9 +14,9 @@ Goal: To achieve the review of the application of the following data structures 
 - [x] [Easy 1. Two Sum](https://leetcode.com/problems/two-sum/) (picked in Blind 75)
 - [x] [Easy 20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) (picked in Blind 75)
 - [x] [Easy 21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) (picked in Blind 75)
-- [ ] [Easy 110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
+- [x] [Easy 110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
 - [x] [Easy 121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) (picked in Blind 75)
-- [ ] [Easy 125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+- [ ] [Easy 125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) (picked in Blind 75)
 - [x] [Easy 141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) (picked in Blind 75) | Algo: Floyd's Cycle Finding
 - [x] [Easy 226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) (picked in Blind 75)
 - [ ] [Easy 232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
