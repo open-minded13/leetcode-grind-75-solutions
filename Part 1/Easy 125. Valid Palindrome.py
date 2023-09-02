@@ -1,3 +1,11 @@
+# Date of Last Practice: Sep 2, 2023
+# Time Complexity: O(N).
+#                  Overall, the time complexity is O(N) due to the linear operations for
+#                  removing non-alphanumeric characters O(N), converting to lowercase O(N),
+#                  and the loop O(N/2).
+# Space Complexity: O(N). The space complexity is O(N) due to the creation of the letters string.
+
+
 import re
 
 
