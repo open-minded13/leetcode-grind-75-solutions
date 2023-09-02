@@ -28,6 +28,34 @@ class Solution:
         return True
 
 
+class AnotherSolution:
+    def isPalindrome(self, s: str) -> bool:
+        # This line of code first creates a list comprehension.
+        # It iterates over each character c in the input string s.
+        # For each character c, it checks if it is alphanumeric using the c.isalnum() method.
+        # If c is alphanumeric, it converts it to lowercase using c.lower().
+        # This line essentially creates a list s containing only alphanumeric characters
+        # from the input string s, with all characters converted to lowercase.
+        s = [c.lower() for c in s if c.isalnum()]
+
+        # This line checks if the string s is a palindrome.
+        # It uses a generator expression within the all() function.
+        # range(len(s)//2) generates a sequence of indices from 0 to
+        # half the length of the cleaned string s.
+        #
+        # For each index i, it checks if s[i] (the character at index i) is equal to
+        # s[~i] (the character at the corresponding position from the end of the string).
+        # The ~i notation represents the index from the end of the string.
+        # So, s[~i] refers to the character at the same position
+        # from the end as s[i] from the beginning.
+        #
+        # The all() function checks if all these character comparisons are True.
+        # If all characters match in a pairwise manner from the beginning and
+        # end of the string towards the middle, the string is considered a palindrome,
+        # and the function returns True. Otherwise, it returns False.
+        return all(s[i] == s[~i] for i in range(len(s) // 2))
+
+
 # Test cases
 solution = Solution()
 print(solution.isPalindrome("A man, a plan, a canal: Panama"))  # True
