@@ -10,7 +10,7 @@
 # Removing duplicates from a list: Sets are often used to eliminate duplicate elements
 # from a list by converting the list to a set and then converting it back to a list.
 # Since sets only store unique elements, any duplicates are automatically removed. For example:
-my_list = [1, 1, 2, 4, 6, 2, 7, 8]
+my_list = [1, 1, 2, 4, 6, 2, 7, 8]  ##
 unique_elements = list(set(my_list))
 print("Unique elements:", unique_elements)
 
