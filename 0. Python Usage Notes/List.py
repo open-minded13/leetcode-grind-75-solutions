@@ -1,4 +1,4 @@
-# Date of Last Practice:
+# Date of Last Practice: Sep 2, 2023
 
 # Create a list
 my_list = [1, 2, 3, 4, 5]
@@ -41,8 +41,8 @@ even_numbers = [item for item in my_list if item % 2 == 0 and len(my_list) == 5]
 print(f"even_numbers = {even_numbers}")
 
 # Sort a list
-sorted_list = my_list.sort()
-sorted_list_in_reverse = my_list.sort(reverse=True)
+my_list.sort()
+my_list.sort(reverse=True)
 
 # Chech if an element exists in a list
 if 3 in my_list:
@@ -70,3 +70,45 @@ print(f"matrix[0][1] = {matrix[0][1]}")
 del matrix[0][1]
 print(f"matrix[0][1] = {matrix[0][1]}")
 print(f"matrix = {matrix}")
+
+
+# [Practice Makes You a Pro!]
+
+# Create a list
+
+# Access elements in a list
+
+# Modify elements in a list
+
+# Add elements to a list
+
+# Remove elements from a list
+
+# Iterate over a list
+
+# List comprehension
+#
+# Syntax: new_list = [expression for item in iterable if condition]
+# The reason the following code doesn't work as intended is because
+# the append() method expects a single element to be added to the list,
+# not a generator expression.
+#
+# odd_numbers = []
+# odd_numbers.append(item for item in my_list if item % 2 == 1)
+# print(f"odd_numbers = {odd_numbers}")
+
+# List comprehension with if condition
+
+# Sort a list
+
+# Chech if an element exists in a list
+
+# Search for an element's index in a list
+
+# Combine two lists
+
+# Create a 2-D matrix
+
+# Access and update a 2-D matrix
+
+# Delete elements from a 2-D matrix

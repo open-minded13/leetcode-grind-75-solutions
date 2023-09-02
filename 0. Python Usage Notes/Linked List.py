@@ -1,4 +1,4 @@
-# Date of Last Practice: 1st July 2023
+# Date of Last Practice: July 1, 2023
 
 
 # Create a Linked List
