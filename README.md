@@ -19,8 +19,8 @@ Goal: To achieve the review of the application of the following data structures 
 - [x] [Easy 125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) (picked in Blind 75) | Algo: Regular Expressions, Two-Pointers Technique, String Manipulation
 - [x] [Easy 141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) (picked in Blind 75) | Algo: Floyd's Cycle Finding
 - [x] [Easy 226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) (picked in Blind 75)
-- [ ] [Easy 232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
-- [ ] [Easy 242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
+- [x] [Easy 232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
+- [x] [Easy 242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
 - [ ] [Easy 704. Binary Search](https://leetcode.com/problems/binary-search/)
 - [ ] [Easy 733. Flood Fill](https://leetcode.com/problems/flood-fill/)
 - [ ] [Medium 235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
