@@ -6,6 +6,53 @@ class Solution:
         self, image: List[List[int]], sr: int, sc: int, color: int
     ) -> List[List[int]]:
         initial_color = image[sr][sc]
+        stack = [(sr, sc)]
+        while stack:
+            row, col = stack.pop()
+            if (
+                row < 0
+                or row >= len(image)
+                or col < 0
+                or col >= len(image[0])
+                or initial_color == color
+            ):
+                continue
+            if image[row][col] == initial_color:
+                image[row][col] = color
+                stack.append((row - 1, col))
+                stack.append((row + 1, col))
+                stack.append((row, col - 1))
+                stack.append((row, col + 1))
+        return image
+
+
+class MyFirstSolution:
+    # Note: We can define functions within a function.
+    # def floodFill(
+    #     self, image: List[List[int]], sr: int, sc: int, color: int
+    # ) -> List[List[int]]:
+    #     initial_color = image[sr][sc]
+    #     row, col = sr, sc
+
+    #     def flood_fill(row, col):
+    #         if initial_color == color:
+    #             return
+    #         if row < 0 or row >= len(image) or col < 0 or col >= len(image[0]):
+    #             return
+    #         if image[row][col] == initial_color:
+    #             image[row][col] = color
+    #             flood_fill(row - 1, col)
+    #             flood_fill(row + 1, col)
+    #             flood_fill(row, col - 1)
+    #             flood_fill(row, col + 1)
+
+    #     flood_fill(row, col)
+    #     return image
+
+    def floodFill(
+        self, image: List[List[int]], sr: int, sc: int, color: int
+    ) -> List[List[int]]:
+        initial_color = image[sr][sc]
         if initial_color != color:
             self.do_flood_fill(image, sr, sc, color, initial_color)
         return image
