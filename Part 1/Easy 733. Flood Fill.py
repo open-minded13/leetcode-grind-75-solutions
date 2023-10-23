@@ -2,11 +2,11 @@ from typing import List
 
 # Date of Last Practice: Oct 22, 2023
 #
-# Time Complexity: O(N), where n is the total number of pixels in the image.
-# Space Complexity: O(1) because in the worst case,
+# Time Complexity: O(N), where N is the total number of pixels in the image.
+# Space Complexity: O(N) because in the worst case,
 #                   when all pixels have the same color as the initial_color,
 #                   the stack will store the coordinates of all pixels,
-#                   leading to a space complexity of O(n).
+#                   leading to a space complexity of O(N).
 
 
 class Solution:
