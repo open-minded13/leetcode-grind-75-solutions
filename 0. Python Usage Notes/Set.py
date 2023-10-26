@@ -1,4 +1,4 @@
-# Date of Last Practice:
+# Date of Last Practice: 23 Oct, 2023
 
 # In Python, the set() data structure is a built-in collection type that
 # represents an unordered collection of unique elements.
@@ -26,9 +26,37 @@ print("Is 6 in my_set?", 6 in my_set)
 # Set operations: Sets support various set operations such as union, intersection, difference,
 # and symmetric difference. These operations can be handy for tasks like finding common elements
 # between sets, finding unique elements, or comparing sets. For example:
-set_1 = {1, 2, 3}
-set_2 = {3, 4, 5, 6}
-print("Union:", set_1.union(set_2))
-print("Intersection:", set_1.intersection(set_2))
-print("Difference:", set_1.difference(set_2))
-print("Symmetric Difference:", set_1.symmetric_difference(set_2))
+my_set_1 = {1, 2, 3}
+my_set_2 = {3, 4, 5, 6}
+print("Union:", my_set_1.union(my_set_2))
+print("Intersection:", my_set_1.intersection(my_set_2))
+print("Difference:", my_set_1.difference(my_set_2))
+print("Symmetric Difference:", my_set_1.symmetric_difference(my_set_2))
+
+
+# [Practice Makes You a Pro!]
+
+# Removing duplicates from a list: Sets are often used to eliminate duplicate elements
+# from a list by converting the list to a set and then converting it back to a list.
+# Since sets only store unique elements, any duplicates are automatically removed. For example:
+#
+# list_1 = []
+# unique_elements =
+
+# Checking for membership: Sets are useful for quickly checking if an element exists
+# in a collection without iterating over the entire collection.
+# This is particularly efficient for large collections. For example:
+#
+# set_1 =
+# print()
+
+# Set operations: Sets support various set operations such as union, intersection, difference,
+# and symmetric difference. These operations can be handy for tasks like finding common elements
+# between sets, finding unique elements, or comparing sets. For example:
+
+# set_2 =
+# set_3 =
+# print("Union:", )
+# print("Intersection:", )
+# print("Difference:", )
+# print("Symmetric Difference:", )
