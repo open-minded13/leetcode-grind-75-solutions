@@ -28,7 +28,7 @@ Goal: To achieve the review of the application of the following data structures 
 ## Part 2
 
 - [x] [Easy 67. Add Binary](https://leetcode.com/problems/add-binary/)
-- [ ] [Easy 70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+- [x] [Easy 70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) (picked in Blind 75) | Algo: Dynamic Programming
 - [x] [Easy 104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) (picked in Blind 75) | Algo: Depth-First Search
 - [ ] [Easy 169. Majority Element](https://leetcode.com/problems/majority-element/)
 - [x] [Easy 206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) (picked in Blind 75)
