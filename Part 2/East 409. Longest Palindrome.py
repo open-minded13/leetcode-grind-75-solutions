@@ -4,9 +4,9 @@ from collections import Counter
 #
 # Time Complexity: O(N), where N is the length of the s string.
 #
-# Space Complexity: O(1). For the Counter object, the solution uses 26 additional spaces
+# Space Complexity: O(1). For the Counter object, the solution uses 54 additional spaces
 #                         (to create a Counter's dictionary-like object)
-#                         because the number of distinct characters.
+#                         because the number of distinct lowercase and uppercase letters.
 #                         Other variables like single_letter_exists and
 #                         longest_palindrome_length require 2 space.
 #                         Overall, O(26) + O(2) can be considered as O(1).
