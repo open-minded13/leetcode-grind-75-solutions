@@ -6,6 +6,15 @@
 # membership testing operations. The average time complexity of num in my_set is O(1),
 # making it faster compared to iterating over a list or checking for membership in a dictionary.
 
+new_set = set()
+new_set.add(4)
+
+# remove() will raise an error if the element is not found, while discard() will not.
+new_set.remove(4)
+new_set.discard(4)
+new_set.clear()
+if len(new_set) == 0:
+    print("new_set is empty now!")
 
 # Removing duplicates from a list: Sets are often used to eliminate duplicate elements
 # from a list by converting the list to a set and then converting it back to a list.

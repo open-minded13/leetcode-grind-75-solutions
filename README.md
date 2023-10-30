@@ -32,8 +32,8 @@ Goal: To achieve the review of the application of the following data structures 
 - [x] [Easy 104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) (picked in Blind 75) | Algo: Depth-First Search
 - [x] [Easy 169. Majority Element](https://leetcode.com/problems/majority-element/) Algo: Moore Voting Algo
 - [x] [Easy 206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) (picked in Blind 75)
-- [ ] [Easy 217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
-- [ ] [Easy 278. First Bad Version](https://leetcode.com/problems/first-bad-version/)
+- [x] [Easy 217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
+- [x] [Easy 278. First Bad Version](https://leetcode.com/problems/first-bad-version/) Algo: Binary Search Algo (Divide and Conquer)
 - [ ] [Easy 383. Ransom Note](https://leetcode.com/problems/ransom-note/)
 - [ ] [Easy 409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)
 - [ ] [Easy 543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
