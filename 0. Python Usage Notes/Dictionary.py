@@ -4,6 +4,8 @@
 # Create an empty dictionary
 my_dict = {}
 
+# Initialize a dictionary with keys from 'a' to 'z' and values set to 0 using a dictionary comprehension.
+letter_count = {chr(i): 0 for i in range(ord("a"), ord("z") + 1)}
 
 # Add/Update key-value pairs to the dictionary
 my_dict["apple"] = 3

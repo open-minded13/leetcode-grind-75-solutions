@@ -58,6 +58,10 @@ list_2 = ["A", "B", "C"]
 combined_list = list_1 + list_2
 print(combined_list)
 
+# Initialize a 2-D matrix
+matrix_2D = [[i, i + 1, i + 2] for i in range(1, 4)]
+print(matrix_2D)
+
 # Create a 2-D matrix
 matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 
@@ -70,7 +74,6 @@ print(f"matrix[0][1] = {matrix[0][1]}")
 del matrix[0][1]
 print(f"matrix[0][1] = {matrix[0][1]}")
 print(f"matrix = {matrix}")
-
 
 # [Practice Makes You a Pro!]
 
