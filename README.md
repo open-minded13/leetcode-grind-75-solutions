@@ -35,7 +35,7 @@ Goal: To achieve the review of the application of the following data structures 
 - [x] [Easy 217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 - [x] [Easy 278. First Bad Version](https://leetcode.com/problems/first-bad-version/) Algo: Binary Search Algo (Divide and Conquer)
 - [x] [Easy 383. Ransom Note](https://leetcode.com/problems/ransom-note/)
-- [ ] [Easy 409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)
+- [x] [Easy 409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)
 - [ ] [Easy 543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
 - [ ] [Easy 876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
 - [x] [Medium 53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) (picked in Blind 75) | Algo: Kadane's Algo
