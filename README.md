@@ -17,7 +17,7 @@ Goal: To achieve the review of the application of the following data structures 
 - [x] [Easy 110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
 - [x] [Easy 121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) (picked in Blind 75)
 - [x] [Easy 125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) (picked in Blind 75) | Algo: Regular Expressions, Two-Pointers Technique, String Manipulation
-- [x] [Easy 141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) (picked in Blind 75) | Algo: Floyd's Cycle Finding
+- [x] [Easy 141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) (picked in Blind 75) | Algo: Floyd's Cycle Finding (Two-Pointers Technique)
 - [x] [Easy 226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) (picked in Blind 75)
 - [x] [Easy 232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
 - [x] [Easy 242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
@@ -37,7 +37,7 @@ Goal: To achieve the review of the application of the following data structures 
 - [x] [Easy 383. Ransom Note](https://leetcode.com/problems/ransom-note/)
 - [x] [Easy 409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)
 - [x] [Easy 543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) Algo: Depth-First Search; Another Takeaway: Mutable Objects (list, dict, set)
-- [ ] [Easy 876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
+- [x] [Easy 876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
 - [x] [Medium 53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) (picked in Blind 75) | Algo: Kadane's Algo
 
 ## Part 3
