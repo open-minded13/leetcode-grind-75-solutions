@@ -45,7 +45,7 @@ Goal: To achieve the review of the application of the following data structures 
 - [x] [Medium 3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) (picked in Blind 75) | Algo: Sliding Window Technique
 - [x] [Medium 15. 3Sum](https://leetcode.com/problems/3sum/) (picked in Blind 75) | Algo: Two-Pointer Technique and Dictionary (Hashmap); DS: Hashing
 - [x] [Medium 57. Insert Interval](https://leetcode.com/problems/insert-interval/) (picked in Blind 75)
-- [ ] [Medium 102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+- [x] [Medium 102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) (picked in Blind 75) | Algo: Breadth-First Search
 - [ ] [Medium 133. Clone Graph](https://leetcode.com/problems/clone-graph/)
 - [ ] [Medium 150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)
 - [ ] [Medium 542. 01 Matrix](https://leetcode.com/problems/01-matrix/)
