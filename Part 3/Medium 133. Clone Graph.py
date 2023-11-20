@@ -1,4 +1,16 @@
 from typing import Optional
+from collections import deque
+
+# Date of Last Practice: Nov 19, 2023
+#
+# Time Complexity: O(N), where N is the number of nodes in the graph.
+#                  If the graph is connected with no repeated edges and no self-loops,
+#                  and all nodes can be visited starting from the given node,
+#                  then each edge is traversed twice during the process of cloning the graph.
+#                  Since there are N-1 edges in the graph, O(2*(N-1)) ≈ O(N).
+#
+# Space Complexity: O(N), where N is the number of nodes in the graph.
+#                   This is because we use the node_mapping dictionary to store each cloned node.
 
 
 # Definition for a Node.
@@ -10,24 +22,34 @@ class Node:
 
 class Solution:
     def cloneGraph(self, node: Optional["Node"]) -> Optional["Node"]:
-        if node:
-
-            def deep_copy(new_node, node, node_reference):
-                node_reference[node.val] = new_node
-                for neighbor in node.neighbors:
-                    if neighbor.val in node_reference:
-                        new_node.neighbors.append(node_reference[neighbor.val])
-                    else:
-                        new_neighbor = Node(neighbor.val)
-                        deep_copy(new_neighbor, neighbor, node_reference)
-                        new_node.neighbors.append(new_neighbor)
-                return new_node
-
-            node_reference = {}
-            new_node = Node(node.val)
-            return deep_copy(new_node, node, node_reference)
-        else:
+        if not node:
             return node
+
+        # Dictionary to store the mapping of original nodes to their clones
+        node_mapping = {}
+
+        # Create the first node and add it to the mapping
+        cloned_node = Node(node.val)
+        node_mapping[node] = cloned_node
+
+        # Queue for BFS traversal
+        queue = deque([node])
+
+        # Perform BFS
+        while queue:
+            current_node = queue.popleft()
+
+            for neighbor in current_node.neighbors:
+                if neighbor not in node_mapping:
+                    # If the neighbor is not in the mapping, create a clone
+                    cloned_neighbor = Node(neighbor.val)
+                    node_mapping[neighbor] = cloned_neighbor
+                    queue.append(neighbor)
+
+                # Add the cloned neighbor to the cloned_node's neighbors
+                node_mapping[current_node].neighbors.append(node_mapping[neighbor])
+
+        return cloned_node
 
 
 # Test cases
