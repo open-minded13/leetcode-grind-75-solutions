@@ -48,7 +48,7 @@ Goal: To achieve the review of the application of the following data structures 
 - [x] [Medium 102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) (picked in Blind 75) | Algo: Breadth-First Search
 - [x] [Medium 133. Clone Graph](https://leetcode.com/problems/clone-graph/) (picked in Blind 75) | Algo: Breadth-First Search
 - [x] [Medium 150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)
-- [ ] [Medium 542. 01 Matrix](https://leetcode.com/problems/01-matrix/)
+- [x] [Medium 542. 01 Matrix](https://leetcode.com/problems/01-matrix/) | Algo: Multi-Source Breadth-First Search
 - [ ] [Medium 973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)
 
 ## Part 4
