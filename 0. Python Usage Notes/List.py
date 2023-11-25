@@ -62,6 +62,10 @@ print(combined_list)
 matrix_2D = [[i, i + 1, i + 2] for i in range(1, 4)]
 print(matrix_2D)
 
+# Initialize another 2-D matrix
+matrix_2D = [[i for i in range(2, -1, -1)] for _ in range(3)]
+print(matrix_2D)
+
 # Create a 2-D matrix
 matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 
