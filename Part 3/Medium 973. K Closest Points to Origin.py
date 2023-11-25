@@ -8,15 +8,22 @@ from typing import List
 #                  we perform heap operations (i.e. heappush() and heappop())
 #                  with a time complexity of log K.
 #
-# Space Complexity: O(N), where N is the number of nodes in the graph.
-#                   This is because the number of stacks we use is proportional to the number of tokens.
-#                   In the worst case, when all operators are put at the end of the tokens list,
-#                   we will use almost N stacks to store operands.
+# Space Complexity: O(N),
 
 # Heapify != Heap Operations
 # Note: Heapify, on the other hand, is a different operation.
-#       It is used to convert a list into a heap, and it has a time complexity of O(N),
-#       where N is the number of elements in the list.
+#       Heapify is considered to have a time complexity of O(N) rather than O(N * log N) because,
+#       during the bottom-up construction of the heap, each node's movement towards
+#       its correct position involves a constant number of comparisons and swaps.
+#       Although the overall height of the heap tree is logarithmic (O(log N)),
+#       the majority of the subtrees during construction have relatively small heights.
+#       This characteristic allows us to treat the heapify operation as
+#       having a constant factor per node rather than a logarithmic one.
+#       Consequently, the linear relationship between the number of elements (N)
+#       and the total number of operations performed for heapify results in
+#       a time complexity of O(N).
+#       Additionally, in practical terms, the slow growth of the iterated logarithm function log* N
+#       further supports treating heapify as a linear operation for realistic input sizes."
 
 
 class Solution:
