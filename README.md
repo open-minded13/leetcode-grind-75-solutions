@@ -53,7 +53,7 @@ Goal: To achieve the review of the application of the following data structures 
 
 ## Part 4
 
-- [ ] [Medium 98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
+- [x] [Medium 98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) (picked in Blind 75) | Algo: Depth-First Search
 - [ ] [Medium 155. Min Stack](https://leetcode.com/problems/min-stack/)
 - [ ] [Medium 200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
 - [ ] [Medium 207. Course Schedule](https://leetcode.com/problems/course-schedule/)
