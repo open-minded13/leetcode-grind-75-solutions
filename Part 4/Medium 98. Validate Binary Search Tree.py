@@ -2,13 +2,13 @@ import sys
 
 # Date of Last Practice: Dec 12, 2023
 #
-# Time Complexity: O(n), where n is the number of nodes in the tree.
+# Time Complexity: O(N), where N is the number of nodes in the tree.
 #                  The algorithm performs a depth-first traversal of the binary tree.
 #                  During this traversal, it visits every node exactly once.
 #
-# Space Complexity: O(N), where n is the number of nodes in the tree.
-#                   For a skewed tree (worst case), the space complexity is O(n).
-#                   For a balanced tree, the space complexity is O(log n).
+# Space Complexity: O(N), where N is the number of nodes in the tree.
+#                   For a skewed tree (worst case), the space complexity is O(N).
+#                   For a balanced tree, the space complexity is O(log N).
 
 
 # Definition for a binary tree node.
