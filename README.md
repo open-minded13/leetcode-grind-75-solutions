@@ -55,7 +55,7 @@ Goal: To achieve the review of the application of the following data structures 
 
 - [x] [Medium 98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) (picked in Blind 75) | Algo: Depth-First Search
 - [x] [Medium 155. Min Stack](https://leetcode.com/problems/min-stack/) | DS: Stack
-- [ ] [Medium 200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
+- [x] [Medium 200. Number of Islands](https://leetcode.com/problems/number-of-islands/) (picked in Blind 75) | Algo: Depth-First Search
 - [ ] [Medium 207. Course Schedule](https://leetcode.com/problems/course-schedule/)
 - [ ] [Medium 208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
 - [x] [Medium 238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) (picked in Blind 75)
