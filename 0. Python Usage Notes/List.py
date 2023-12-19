@@ -79,6 +79,10 @@ del matrix[0][1]
 print(f"matrix[0][1] = {matrix[0][1]}")
 print(f"matrix = {matrix}")
 
+array = [[0] * 3]
+# print(f"array[2] = {array[2]}")
+print(f"array: {array}")
+
 # [Practice Makes You a Pro!]
 
 # Create a list
