@@ -1,4 +1,4 @@
-# Date of Last Practice: Dec 18 2023
+# Date of Last Practice: Dec 18, 2023
 #
 # Time Complexity: O(N), where N is the number of input characters
 #                  (i.e., the word string for the insert and search functions and
