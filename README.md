@@ -59,8 +59,8 @@ Goal: To achieve the review of the application of the following data structures 
 - [x] [Medium 207. Course Schedule](https://leetcode.com/problems/course-schedule/) (picked in Brind 75) | Algo: Depth-First Search
 - [x] [Medium 208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | DS: Trie Tree
 - [x] [Medium 238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) (picked in Blind 75)
-- [ ] [Medium 322. Coin Change](https://leetcode.com/problems/coin-change/)
-- [ ] [Medium 994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
+- [x] [Medium 322. Coin Change](https://leetcode.com/problems/coin-change/) (picked in Blind 75) | Algo: Dynamic Programming
+- [x] [Medium 994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | Algo: Breadth-First Search
 
 ## Part 5
 
