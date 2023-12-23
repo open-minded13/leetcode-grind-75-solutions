@@ -67,7 +67,7 @@ Current Progress: 43/75.
 ## Part 5
 
 - [x] [Medium 33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) (picked in Blind 75)
-- [ ] [Medium 39. Combination Sum](https://leetcode.com/problems/combination-sum/)
+- [x] [Medium 39. Combination Sum](https://leetcode.com/problems/combination-sum/) | Algo: Backtracking
 - [ ] [Medium 46. Permutations](https://leetcode.com/problems/permutations/)
 - [ ] [Medium 56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)
 - [ ] [Medium 75. Sort Colors](https://leetcode.com/problems/sort-colors/)

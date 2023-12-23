@@ -177,7 +177,7 @@ class Wrong_DFS_Solution:
 
 
 # Test cases
-sol = DFS_Solution()
+sol = Solution()
 print(sol.orangesRotting([[2, 1, 1], [1, 1, 0], [0, 1, 1]]))  # Expected output: 4
 print(sol.orangesRotting([[2, 1, 1], [0, 1, 1], [1, 0, 1]]))  # Expected output: -1
 print(sol.orangesRotting([[0, 2]]))  # Expected output: 0
