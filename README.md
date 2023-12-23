@@ -68,7 +68,7 @@ Current Progress: 43/75.
 
 - [x] [Medium 33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) (picked in Blind 75)
 - [x] [Medium 39. Combination Sum](https://leetcode.com/problems/combination-sum/) | Algo: Backtracking
-- [ ] [Medium 46. Permutations](https://leetcode.com/problems/permutations/)
+- [x] [Medium 46. Permutations](https://leetcode.com/problems/permutations/) | Algo: Backtracking
 - [ ] [Medium 56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)
 - [ ] [Medium 75. Sort Colors](https://leetcode.com/problems/sort-colors/)
 - [ ] [Medium 236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
