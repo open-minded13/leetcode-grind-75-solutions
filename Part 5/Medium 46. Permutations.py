@@ -12,7 +12,7 @@
 #                   The maximum depth of the recursive call stack is N
 #                   as we explore each element for permutations.
 #                   The maximum size of the combination list is N.
-#                   The size of used_num is always n.
+#                   The size of used_num is always N.
 
 
 class Solution:
