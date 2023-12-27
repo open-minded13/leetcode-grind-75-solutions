@@ -72,7 +72,7 @@ Current Progress: 48/75.
 - [x] [Medium 56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) (picked in Blind 75)
 - [x] [Medium 75. Sort Colors](https://leetcode.com/problems/sort-colors/) | Algo: Dutch National Flag
 - [x] [Medium 236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | Algo: Depth-First Search
-- [ ] [Medium 721. Accounts Merge](https://leetcode.com/problems/accounts-merge/)
+- [x] [Medium 721. Accounts Merge](https://leetcode.com/problems/accounts-merge/) | DS: Disjoint Set Union (DSU or Union–Find Data Structure)
 - [ ] [Medium 981. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)
 
 ## Part 6

@@ -50,8 +50,11 @@ for index, (key, value) in enumerate(my_dict.items()):
     print("Test:", index, key, value)
 
 # Get a list of keys
-keys = list(my_dict.keys())
+# my_dict.keys() is acceptable but using my_dict directly is better.
+keys = list(my_dict)
 print("keys:", keys)
+for key in my_dict:
+    print(f"{key}")
 
 # Get a list of values
 values = list(my_dict.values())
