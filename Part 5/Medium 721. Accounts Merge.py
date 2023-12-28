@@ -1,5 +1,47 @@
 from typing import List
 
+# Date of Last Practice: Dec 27, 2023
+#
+# Time Complexity: O(A * E) + O(N * log N), where A is the number of accounts,
+#                  E is the average number of emails per account, and
+#                  N is the total number of unique email addresses across all accounts.
+#
+#                  In step 1, iterating over each account and then over each email in the account
+#                  results in A * E time, where A is the number of accounts and
+#                  E is the average number of emails per account.
+#
+#                  For each email, a union operation is performed within the nested loop.
+#                  The time complexity of union and find operations in a DSU is O(α(N)),
+#                  where α(N) is the Inverse Ackermann function, which grows very slowly.
+#                  So, for A * E emails, this step takes O(A * E * α(N)).
+#                  Since α(N) is practically a constant for reasonably large input,
+#                  we can approximate this to O(A * E).
+#
+#                  In step 2, iterating over all unique emails and finding parents in DSU is
+#                  O(N * α(N)), which is approximately O(N).
+#
+#                  In step 3, the sorting of emails in each group dominates this step.
+#                  In the worst case, all unique emails could belong to a single group,
+#                  resulting in a sorting time of O(N log N).
+#
+#                  So, the overall time complexity is O(A * E) + O(N) + O(N log N) =
+#                  O(A * E) + O(N * log N).
+#
+#                  In the worst-case scenario, all emails are unique and there are
+#                  no duplicate emails across any accounts, resulting N = A * E.
+#                  Therefore, O(N * log N).
+#
+# Space Complexity: O(N), where N is the total number of unique emails across all accounts.
+#
+#                   1) The DSU class uses a dictionary for parents,
+#                      which can have at most N entries (one per email), so O(N).
+#
+#                   2) Both email_to_name and email_to_id dictionaries
+#                      will have an entry per email, requiring O(N) space.
+#
+#                   3) The result dictionary and the list used for the final result
+#                      will also use O(N) space.
+
 
 class DSU:
     def __init__(self):

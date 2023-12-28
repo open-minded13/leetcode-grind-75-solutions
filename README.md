@@ -9,7 +9,7 @@ Goal: To achieve the review of the application of the following data structures 
 - Data Structures: (1) Arrays; (2) Stacks and Queues; (3) Linked Lists; (4) Trees; (5) Graphs; (6) Sorting; (7) Hashing.
 - Algorithms: (1) Greedy Method; (2) Divide and Conquer; (3) Tree Searching Strategies; (4) Prune and Search; (5) Dynamic Programming; (6) The Theory of NP-Completeness.
 
-Current Progress: 48/75.
+Current Progress: 50/75.
 
 ## Part 1
 
@@ -73,7 +73,7 @@ Current Progress: 48/75.
 - [x] [Medium 75. Sort Colors](https://leetcode.com/problems/sort-colors/) | Algo: Dutch National Flag
 - [x] [Medium 236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | Algo: Depth-First Search
 - [x] [Medium 721. Accounts Merge](https://leetcode.com/problems/accounts-merge/) | DS: Disjoint Set Union (DSU or Union–Find Data Structure)
-- [ ] [Medium 981. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)
+- [x] [Medium 981. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) | Algo: Binary Search
 
 ## Part 6
 
