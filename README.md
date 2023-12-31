@@ -78,7 +78,7 @@ Current Progress: 50/75.
 ## Part 6
 
 - [x] [Medium 5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) (picked in Blind 75) | Algo: Expand Around Center & Two-Pointers Techniques
-- [ ] [Medium 8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)
+- [x] [Medium 8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | DS: Overflow Handling
 - [ ] [Medium 54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
 - [ ] [Medium 62. Unique Paths](https://leetcode.com/problems/unique-paths/)
 - [ ] [Medium 78. Subsets](https://leetcode.com/problems/subsets/)

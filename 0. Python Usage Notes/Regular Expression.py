@@ -1,4 +1,4 @@
-# Date of Last Practice: Dec 18, 2023 ->
+# Date of Last Practice: Dec 18, 2023 -> Dec 31, 2023
 
 import re
 
@@ -74,29 +74,7 @@ pattern = r"\d{5}(-\d{4})?"
 def demo_re_functions():
     test_string = "Example string 123 with different 456 patterns 789."
 
-    # re.search(pattern, string, flags=0)
-    # Purpose: Searches for the first occurrence of the pattern in the string.
-    # Input: Pattern (regex), string to search in.
-    # Returns: Match object if found; None otherwise.
-    search_result = re.search(r"\d+", test_string)
-    print("re.search result:", search_result.group() if search_result else "No match")
-
-    # re.match(pattern, string, flags=0)
-    # Purpose: Matches the pattern at the beginning of the string.
-    # Input: Pattern (regex), string to match against.
-    # Returns: Match object if the beginning of the string matches the pattern; None otherwise.
-    match_result = re.match(r"Example", test_string)
-    print("re.match result:", match_result.group() if match_result else "No match")
-
-    # re.fullmatch(pattern, string, flags=0)
-    # Purpose: Checks if the entire string matches the pattern.
-    # Input: Pattern (regex), string to match against.
-    # Returns: Match object if the entire string matches; None otherwise.
-    fullmatch_result = re.fullmatch(r".*789\.", test_string)
-    print(
-        "re.fullmatch result:",
-        fullmatch_result.group() if fullmatch_result else "No match",
-    )
+    # Key functions:
 
     # re.findall(pattern, string, flags=0)
     # Purpose: Finds all non-overlapping occurrences of the pattern in the string.
@@ -133,6 +111,34 @@ def demo_re_functions():
     # Returns: List of strings resulting from the split.
     split_result = re.split(r"\s+", test_string)
     print("re.split result:", split_result)
+
+    # Other functions:
+
+    # re.search(pattern, string, flags=0)
+    # Purpose: Searches for the FIRST occurrence of the pattern in the string.
+    # Input: Pattern (regex), string to search in.
+    # Returns: Match object if found; None otherwise.
+    search_result = re.search(r"\d", test_string)
+    print("re.search result:", search_result.group() if search_result else "No match")
+    search_result = re.search(r"\d+", test_string)
+    print("re.search result:", search_result.group() if search_result else "No match")
+
+    # re.match(pattern, string, flags=0)
+    # Purpose: Matches the pattern at the BEGINNING of the string.
+    # Input: Pattern (regex), string to match against.
+    # Returns: Match object if the beginning of the string matches the pattern; None otherwise.
+    match_result = re.match(r"Example", test_string)
+    print("re.match result:", match_result.group() if match_result else "No match")
+
+    # re.fullmatch(pattern, string, flags=0)
+    # Purpose: Checks if the entire string matches the pattern.
+    # Input: Pattern (regex), string to match against.
+    # Returns: Match object if the entire string matches; None otherwise.
+    fullmatch_result = re.fullmatch(r".*789\.", test_string)
+    print(
+        "re.fullmatch result:",
+        fullmatch_result.group() if fullmatch_result else "No match",
+    )
 
     # Compiling a pattern for efficiency when used multiple times
     # Purpose: Compiles a regex pattern for repeated use.

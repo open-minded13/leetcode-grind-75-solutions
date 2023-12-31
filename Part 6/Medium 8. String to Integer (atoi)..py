@@ -1,32 +1,82 @@
+# Date of Last Practice: Dec 31, 2023
+#
+# Time Complexity: O(N), , where N is the length of the string s.
+#                  This is because we're iterating through the string at most once,
+#                  performing constant-time checks and calculations at each step.
+#
+# Space Complexity: O(1), as we only use constant extra space, including
+#                   index, s_length, max_int_32, min_int_32, and result.
+
+
 class Solution:
     def myAtoi(self, s: str) -> int:
-        INT_MAX = 2**31 - 1
-        INT_MIN = -(2**31)
-
-        i = 0
-        n = len(s)
-        result = 0
-        is_negative = False
-
         # Step 1: Skip leading whitespaces
-        while i < n and s[i] == " ":
-            i += 1
+        index = 0
+        s_length = len(s)
+        while index < s_length and s[index] == " ":
+            index += 1
 
         # Step 2: Check if the next character is '-' or '+'
-        if i < n and (s[i] == "-" or s[i] == "+"):
-            is_negative = s[i] == "-"
-            i += 1
+        is_negative = False
+        if index < s_length and (s[index] == "+" or s[index] == "-"):
+            if s[index] == "-":
+                is_negative = True
+            index += 1
 
         # Step 3: Read in the next characters until a non-digit character
-        while i < n and s[i].isdigit():
-            digit = int(s[i])
-            # Check for overflow and underflow
-            if (result > INT_MAX // 10) or (
-                result == INT_MAX // 10 and digit > INT_MAX % 10
+        max_int_32 = 2**31 - 1
+        min_int_32 = -(2**31)
+        result = 0
+        while index < s_length and s[index].isdigit():
+            digit = int(s[index])
+            if result > max_int_32 // 10 or (
+                result == max_int_32 // 10 and digit > max_int_32 % 10
             ):
-                return INT_MIN if is_negative else INT_MAX
+                return min_int_32 if is_negative else max_int_32
             result = result * 10 + digit
-            i += 1
+            index += 1
+
+        return -result if is_negative else result
+
+
+class First_Solution:
+    def myAtoi(self, s: str) -> int:
+        if not s:
+            return 0
+
+        index = 0
+        is_negative = False
+        for i, char in enumerate(s):
+            if char == " ":
+                continue
+            if char == "+" or char == "-":
+                is_negative = True if char == "-" else False
+                if i + 1 < len(s):
+                    index = i + 1
+                else:
+                    return 0
+                if not s[index].isdigit():
+                    return 0
+                break
+            elif char.isdigit():
+                index = i
+                break
+            else:
+                return 0
+
+        max_int_32 = 2**31 - 1
+        min_int_32 = -(2**31)
+        result = 0
+        for i in range(index, len(s)):
+            if not s[i].isdigit():
+                break
+            result = result * 10 + int(s[i])
+            if is_negative:
+                if -result < min_int_32:
+                    return min_int_32
+            else:
+                if result > max_int_32:
+                    return max_int_32
 
         return -result if is_negative else result
 

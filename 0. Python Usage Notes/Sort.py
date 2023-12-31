@@ -1,4 +1,4 @@
-# Date of Last Practice: 26 Dec, 2023
+# Date of Last Practice: 26 Dec, 2023 -> 31 Dec, 2023
 
 # Differences Between sort() and sorted()
 # 1. Modification: sort() sorts the list in place and
@@ -50,7 +50,9 @@ print("Tuple sorted in descending order:", desc_sorted_numbers)
 
 # Using sorted() with lambda function on a dictionary
 employees = {"A": 25, "B": 34, "C": 68, "D": 45}
-desc_sorted_employees = sorted(employees.items(), reverse=True, key=lambda x: x[1])
+desc_sorted_employees = sorted(
+    employees.items(), reverse=True, key=lambda item: item[0]
+)
 print("Employees sorted by age:", desc_sorted_employees)
 
 # Wrong way (the following will only sort D, C, B, A in reverse order by key):
