@@ -9,7 +9,7 @@ Goal: To achieve the review of the application of the following data structures 
 - Data Structures: (1) Arrays; (2) Stacks and Queues; (3) Linked Lists; (4) Trees; (5) Graphs; (6) Sorting; (7) Hashing.
 - Algorithms: (1) Greedy Method; (2) Divide and Conquer; (3) Tree Searching Strategies; (4) Prune and Search; (5) Dynamic Programming; (6) The Theory of NP-Completeness.
 
-Current Progress: 54/75.
+Current Progress: 55/75.
 
 ## Part 1
 
@@ -81,7 +81,7 @@ Current Progress: 54/75.
 - [x] [Medium 8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | DS: Overflow Handling
 - [x] [Medium 54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) (picked in Blind 75)
 - [x] [Medium 62. Unique Paths](https://leetcode.com/problems/unique-paths/) (picked in Blind 75) | Algo: Dynamic Programming
-- [ ] [Medium 78. Subsets](https://leetcode.com/problems/subsets/)
+- [x] [Medium 78. Subsets](https://leetcode.com/problems/subsets/)
 - [ ] [Medium 105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 - [ ] [Medium 139. Word Break](https://leetcode.com/problems/word-break/)
 - [ ] [Medium 199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)
