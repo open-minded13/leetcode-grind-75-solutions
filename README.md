@@ -9,7 +9,7 @@ Goal: To achieve the review of the application of the following data structures 
 - Data Structures: (1) Arrays; (2) Stacks and Queues; (3) Linked Lists; (4) Trees; (5) Graphs; (6) Sorting; (7) Hashing.
 - Algorithms: (1) Greedy Method; (2) Divide and Conquer; (3) Tree Searching Strategies; (4) Prune and Search; (5) Dynamic Programming; (6) The Theory of NP-Completeness.
 
-Current Progress: 53/75.
+Current Progress: 54/75.
 
 ## Part 1
 
