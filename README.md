@@ -82,7 +82,7 @@ Current Progress: 55/75.
 - [x] [Medium 54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) (picked in Blind 75)
 - [x] [Medium 62. Unique Paths](https://leetcode.com/problems/unique-paths/) (picked in Blind 75) | Algo: Dynamic Programming
 - [x] [Medium 78. Subsets](https://leetcode.com/problems/subsets/)
-- [ ] [Medium 105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+- [x] [Medium 105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) (picked in Blind 75) | Algo: Preorder & Inorder Traversal
 - [ ] [Medium 139. Word Break](https://leetcode.com/problems/word-break/)
 - [ ] [Medium 199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)
 - [ ] [Medium 416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
