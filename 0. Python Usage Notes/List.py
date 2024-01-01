@@ -1,4 +1,4 @@
-# Date of Last Practice: Sep 2, 2023 -> Dec 22, 2023
+# Date of Last Practice: Sep 2, 2023 -> Dec 22, 2023 -> Jan 1, 2024
 
 
 # Create a list
@@ -16,7 +16,8 @@ print(f"my_list[0] = {my_list[0]}")
 my_list.append(8)
 print(f"my_list = {my_list}")
 
-# Remove elements from a list
+# Remove elements from a list. If an element does not exist,
+# return "ValueError: list.remove(x): x not in list"
 my_list.remove(8)
 print(f"my_list = {my_list}")
 
@@ -34,11 +35,12 @@ for index, item in enumerate(my_list):
 # odd_numbers = []
 # odd_numbers.append(item for item in my_list if item % 2 == 1)
 # print(f"odd_numbers = {odd_numbers}")
+
 squared_list = [item**2 for item in my_list]
 print(f"squared_list = {squared_list}")
 
 # List comprehension with if condition
-even_numbers = [item for item in my_list if item % 2 == 0 and len(my_list) == 5]
+even_numbers = [item for item in my_list if item % 2 == 0]
 print(f"even_numbers = {even_numbers}")
 
 # Sort a list
@@ -49,7 +51,8 @@ my_list.sort(reverse=True)
 if 3 in my_list:
     print("The value 3 is in the list")
 
-# Search for an element's index in a list
+# Search for an element's index in a list.
+# This function applies a linear search internally.
 index = my_list.index(3)
 print(f"The value 3 is in index {index}")
 
@@ -97,6 +100,7 @@ print(f"matrix = {matrix}")
 not_a_new_list = my_list
 not_a_new_list[0] = 20
 print(f"not_a_new_list[0] = {not_a_new_list[0]} vs my_list[0] = {my_list[0]}")
+# my_list.copy() is equal to list(my_list)
 new_list = my_list.copy()
 new_list[0] = 30
 print(f"new_list[0] = {new_list[0]} vs my_list[0] = {my_list[0]}")
