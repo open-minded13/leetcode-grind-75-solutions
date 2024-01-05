@@ -53,6 +53,7 @@ if 3 in my_list:
 
 # Search for an element's index in a list.
 # This function applies a linear search internally.
+# .index(value, start_index, stop_index (not included))
 index = my_list.index(3)
 print(f"The value 3 is in index {index}")
 
