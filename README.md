@@ -9,7 +9,7 @@ Goal: To achieve the review of the application of the following data structures 
 - Data Structures: (1) Arrays; (2) Stacks and Queues; (3) Linked Lists; (4) Trees; (5) Graphs; (6) Sorting; (7) Hashing.
 - Algorithms: (1) Greedy Method; (2) Divide and Conquer; (3) Tree Searching Strategies; (4) Prune and Search; (5) Dynamic Programming; (6) The Theory of NP-Completeness.
 
-Current Progress: 59/75.
+Current Progress: 62/75.
 
 ## Part 1
 
@@ -92,7 +92,7 @@ Current Progress: 59/75.
 - [x] [Medium 11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) (picked in Blind 75)
 - [x] [Medium 17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 - [x] [Medium 79. Word Search](https://leetcode.com/problems/word-search/) (picked in Blind 75) | Algo: Depth-First Search
-- [ ] [Medium 146. LRU Cache](https://leetcode.com/problems/lru-cache/)
+- [x] [Medium 146. LRU Cache](https://leetcode.com/problems/lru-cache/) | DS: Doubly Linked List
 - [ ] [Medium 310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)
 - [ ] [Medium 438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
 - [ ] [Medium 621. Task Scheduler](https://leetcode.com/problems/task-scheduler/)
