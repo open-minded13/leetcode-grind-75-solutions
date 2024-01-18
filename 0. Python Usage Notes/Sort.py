@@ -50,8 +50,8 @@ print("Tuple sorted in descending order:", desc_sorted_numbers)
 
 # Using sorted() with lambda function on a dictionary
 employees = {"A": 25, "B": 34, "C": 68, "D": 45}
-desc_sorted_employees = sorted(
-    employees.items(), reverse=True, key=lambda item: item[0]
+desc_sorted_employees = dict(
+    sorted(employees.items(), reverse=True, key=lambda item: item[1])
 )
 print("Employees sorted by age:", desc_sorted_employees)
 
