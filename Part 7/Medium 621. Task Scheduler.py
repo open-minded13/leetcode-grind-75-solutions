@@ -47,13 +47,11 @@ class Solution:
         tasks_with_max_count = sum(
             1 for count in task_counts.values() if count == max_count
         )
-
         part_count = max_count - 1
         part_length = max(0, n - (tasks_with_max_count - 1))
         empty_slots = part_count * part_length
         available_tasks = len(tasks) - tasks_with_max_count * max_count
         idles = max(0, empty_slots - available_tasks)
-
         return len(tasks) + idles
 
 

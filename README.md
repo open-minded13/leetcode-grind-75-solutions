@@ -99,7 +99,7 @@ Current Progress: 65/75.
 
 ## Part 8
 
-- [ ] [Medium 230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
+- [x] [Medium 230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) (picked in Blind 75) | Algo: Inorder Traversal
 - [ ] [Hard 23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 - [ ] [Hard 42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
 - [ ] [Hard 76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
