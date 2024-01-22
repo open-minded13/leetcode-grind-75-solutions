@@ -25,6 +25,11 @@ class Solution:
             return None
 
         min_heap = []
+
+        # The purpose of the `index` is in case the same number as `list.val`
+        # is already in the heap. Without the `index` variable,
+        # the heappush function will compare the next item, which is `list`.
+        # However, `list` is an object and is not comparable.
         index = 0
         for list in lists:
             if list:
