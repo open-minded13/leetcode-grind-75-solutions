@@ -1,9 +1,9 @@
 # Date of Last Practice:
-#   Dec 12, 2023 ->
+#   Dec 12, 2023 -> Jan 21, 2024
 
 import heapq
 
-# Heapify != Heap Operations
+# Heapify, O(N) != Heap Operation, O(log N)
 # Note: Heapify, on the other hand, is a different operation.
 #       Heapify is considered to have a time complexity of O(N) rather than O(N * log N) because,
 #       during the bottom-up construction of the heap, each node's movement towards
