@@ -101,7 +101,7 @@ Current Progress: 67/75.
 
 - [x] [Medium 230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) (picked in Blind 75) | Algo: Inorder Traversal
 - [x] [Hard 23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) (picked in Blind 75) | DS: Min Heap (Priority Queue)
-- [ ] [Hard 42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
+- [x] [Hard 42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Algo: Two-Pointer Technique
 - [ ] [Hard 76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
 - [ ] [Hard 84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
 - [ ] [Hard 127. Word Ladder](https://leetcode.com/problems/word-ladder/)
