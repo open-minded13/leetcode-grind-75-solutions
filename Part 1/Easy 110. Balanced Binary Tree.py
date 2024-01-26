@@ -1,7 +1,13 @@
-# Definition for a binary tree node.
+# Date of Last Practice: Aug 31, 2023 -> Jan 25, 2024
+#
+# Time Complexity: O(N), where N is the total number of nodes in the tree.
+#
+# Space Complexity: O(1). We use a constant amount of additional space.
+
 from typing import Optional
 
 
+# Definition for a binary tree node.
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val

@@ -1,3 +1,5 @@
+# Date of Last Practice: Jun 19, 2023 -> Jan 25, 2024
+#
 # Time Complexity: O(N), where N is the total number of nodes in the linked list 1 and 2.
 #                  This is because the solution iterates all the nodes in the linked list.
 #

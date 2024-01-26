@@ -1,5 +1,5 @@
 # Date of Last Practice:
-#   Dec 12, 2023 -> Jan 21, 2024
+#   Dec 12, 2023 -> Jan 21, 2024 -> Jan 26, 2024
 
 import heapq
 
@@ -40,7 +40,7 @@ data = [3, 1, 4, 1, 5, 9, 2]
 smallest_three = heapq.nsmallest(3, data)  # Returns [1, 1, 2]
 print(smallest_three)
 
-# Merging Heaps
+# Merging Heaps (Note you need to add a list() before returning value)
 # heapq.merge(*iterables): Merges multiple sorted inputs into a single sorted output.
 #                          It takes multiple sorted iterables as arguments and
 #                          returns an iterator over the sorted values.
