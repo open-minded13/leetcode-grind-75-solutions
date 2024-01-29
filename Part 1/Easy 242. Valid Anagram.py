@@ -1,4 +1,4 @@
-# Date of Last Practice: Oct 15, 2023
+# Date of Last Practice: Oct 15, 2023 -> Jan 29, 2024
 #
 # Time Complexity: O(N), where n is the length of the input strings s and t.
 #                  The solution iterates over both strings once to count the frequency of characters and

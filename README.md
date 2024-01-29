@@ -22,7 +22,7 @@ Current Progress: 68/75.
 - [x] [Easy 141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) (picked in Blind 75) | Algo: Floyd's Cycle Finding (Two-Pointers Technique)
 - [x] [Easy 226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) (picked in Blind 75)
 - [x] [Easy 232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
-- [x] [Easy 242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
+- [x] [Easy 242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) (picked in Blind 75)
 - [x] [Easy 704. Binary Search](https://leetcode.com/problems/binary-search/)
 - [x] [Easy 733. Flood Fill](https://leetcode.com/problems/flood-fill/)
 - [x] [Medium 235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) (picked in Blind 75)
@@ -102,7 +102,7 @@ Current Progress: 68/75.
 - [x] [Medium 230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) (picked in Blind 75) | Algo: Inorder Traversal
 - [x] [Hard 23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) (picked in Blind 75) | DS: Min Heap (Priority Queue)
 - [x] [Hard 42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Algo: Two-Pointer Technique
-- [ ] [Hard 76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
+- [x] [Hard 76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) (picked in Blind 75) | Algo: Sliding Window; DS: Hash Table
 - [ ] [Hard 84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
 - [ ] [Hard 127. Word Ladder](https://leetcode.com/problems/word-ladder/)
 - [ ] [Hard 224. Basic Calculator](https://leetcode.com/problems/basic-calculator/)

@@ -1,4 +1,5 @@
-# Date of Last Practice: Sep 2, 2023
+# Date of Last Practice: Sep 2, 2023 -> Jan 27, 2024
+#
 # Time Complexity: O(N).
 #                  Overall, the time complexity is O(N) due to the linear operations for
 #                  removing non-alphanumeric characters O(N), converting to lowercase O(N),

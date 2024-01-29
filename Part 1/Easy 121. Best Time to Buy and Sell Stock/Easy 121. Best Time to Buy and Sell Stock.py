@@ -1,3 +1,5 @@
+# Date of Last Practice: Apr 12, 2023 -> Jun 11, 2023 -> Jan 27, 2024
+#
 # Time Complexity: O(N), where N is the length of the input array prices.
 #                  This is because the algorithm iterates over the array once in a loop.
 #                  Each iteration performs constant time operations, such as comparisons and arithmetic calculations.
