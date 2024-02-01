@@ -103,7 +103,7 @@ Current Progress: 68/75.
 - [x] [Hard 23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) (picked in Blind 75) | DS: Min Heap (Priority Queue)
 - [x] [Hard 42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Algo: Two-Pointer Technique
 - [x] [Hard 76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) (picked in Blind 75) | Algo: Sliding Window; DS: Hash Table
-- [ ] [Hard 84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
+- [x] [Hard 84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | DS: Stack
 - [ ] [Hard 127. Word Ladder](https://leetcode.com/problems/word-ladder/)
 - [ ] [Hard 224. Basic Calculator](https://leetcode.com/problems/basic-calculator/)
 - [ ] [Hard 295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)

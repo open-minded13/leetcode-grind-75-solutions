@@ -1,4 +1,4 @@
-# Date of Last Practice: Oct 17, 2023
+# Date of Last Practice: Oct 17, 2023 -> Jan 29, 2024
 #
 # Time Complexity: O(log N), where N is the number of elements in the nums array.
 #                            In each iteration of the while loop,

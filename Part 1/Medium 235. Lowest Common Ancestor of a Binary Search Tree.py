@@ -1,6 +1,6 @@
 from typing import List
 
-# Date of Last Practice: Oct 22, 2023
+# Date of Last Practice: Oct 22, 2023 -> Jan 29, 2024
 #
 # Time Complexity: O(H), where H is the height of the binary search tree.
 #                  In the worst case, the tree can be skewed (all nodes in a single branch),
