@@ -1,15 +1,19 @@
+# Date of Last Practice: Jul 01, 2023 -> Feb 1, 2024
+#
 # Time Complexity: O(N), where N is the total number of nodes in the given tree.
-#                  This is because the solution recursively visits each node in the tree exactly once.
+#                  This is because the solution recursively visits each node
+#                  in the tree exactly once.
 #
 # Space Complexity: O(H), where H is the height of the tree. In the recursive calls,
 #                   the maximum depth of the call stack is equal to the height of the tree.
-#                   Therefore, the space complexity is determined by the maximum depth of the recursion,
-#                   which is the height of the tree.
-#                   In the worst case, for a skewed tree, the height can be equal to the number of nodes N,
-#                   resulting in a space complexity of O(N).
+#                   Therefore, the space complexity is determined by the maximum depth of
+#                   the recursion, which is the height of the tree.
+#                   In the worst case, for a skewed tree, the height can be equal to
+#                   the number of nodes N, resulting in a space complexity of O(N).
 #                   However, for a balanced tree, the height is logarithmic in the number of nodes,
 #                   resulting in a space complexity of O(log N).
-#                   So, the space complexity is O(H) or O(log N), depending on the height of the tree.
+#                   So, the space complexity is O(H) or O(log N),
+#                   depending on the height of the tree.
 
 
 # Definition for a binary tree node.

@@ -1,4 +1,4 @@
-# Date of Last Practice: Oct 28, 2023
+# Date of Last Practice: Oct 28, 2023 -> Feb 1, 2024
 #
 # Time Complexity: O(N), where N is the number of steps we have on the stair.
 #                  This is because we use a for loop to iterate from 3 to N.

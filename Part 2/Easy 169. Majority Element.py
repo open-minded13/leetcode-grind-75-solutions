@@ -1,15 +1,17 @@
 from typing import List
 
-# Date of Last Practice: Oct 29, 2023
+# Date of Last Practice: Oct 29, 2023 -> Feb 2, 2024
 #
 # Time Complexity: O(N), where N is the amount of numbers in the list.
 #                  This is because we use a for loop to iterate the "nums" list .
 # Space Complexity: O(1) because we use a constant amount of extra space to store two variables.
 #
-# Moore Voting Algorithm: The algorithm is based on the fun fact that the majority element will always survive
+# Moore Voting Algorithm: The algorithm is based on the fun fact that
+#                         the majority element will always survive
 #                         during the process of count-based elimination.
 #                         The algorithm's core idea is picking a candidate, pairing it with others,
-#                         and ensuring the majority element can survive through the elimination process.
+#                         and ensuring the majority element can survive
+#                         through the elimination process.
 
 
 class Solution:

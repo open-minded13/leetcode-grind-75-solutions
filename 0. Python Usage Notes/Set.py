@@ -1,4 +1,4 @@
-# Date of Last Practice: 23 Oct, 2023
+# Date of Last Practice: 23 Oct, 2023 -> Feb 2, 2024
 
 # In Python, the set() data structure is a built-in collection type that
 # represents an unordered collection of unique elements.
@@ -23,7 +23,6 @@ my_list = [1, 1, 2, 4, 6, 2, 7, 8]
 unique_elements = list(set(my_list))
 print("Unique elements:", unique_elements)
 
-
 # Checking for membership: Sets are useful for quickly checking if an element exists
 # in a collection without iterating over the entire collection.
 # This is particularly efficient for large collections. For example:
@@ -41,7 +40,6 @@ print("Union:", my_set_1.union(my_set_2))
 print("Intersection:", my_set_1.intersection(my_set_2))
 print("Difference:", my_set_1.difference(my_set_2))
 print("Symmetric Difference:", my_set_1.symmetric_difference(my_set_2))
-
 
 # [Practice Makes You a Pro!]
 

@@ -1,6 +1,6 @@
 from collections import Counter
 
-# Date of Last Practice: Oct 30, 2023
+# Date of Last Practice: Oct 30, 2023 -> Feb 2, 2024
 #
 # Time Complexity: O(N+M), where N and M are the length of the ransomNote and magazine strings respectively.
 #

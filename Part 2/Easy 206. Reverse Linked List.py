@@ -1,3 +1,5 @@
+# Date of Last Practice: Jun 19, 2023 -> Feb 2, 2024
+#
 # Time Complexity: O(N), where N is the number of nodes in the linked list.
 #                  This is because the method iterates through each node once in the while loop,
 #                  performing constant-time operations for each node.
