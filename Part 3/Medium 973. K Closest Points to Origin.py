@@ -1,7 +1,7 @@
 import heapq
 from typing import List
 
-# Date of Last Practice: Nov 25, 2023
+# Date of Last Practice: Nov 25, 2023 -> Feb 4, 2024
 #
 # Time Complexity: O(N * log K), where N is the number of tokens in the input list.
 #                  This is because we iterate over each point, and in each iteration,

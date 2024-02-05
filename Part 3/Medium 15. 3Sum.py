@@ -1,3 +1,5 @@
+# Date of Last Practice: Jun 13, 2023 -> Feb 3, 2024
+#
 # Time Complexity: O(N^2). Specifically, the outer loop of the nested loop iterates M times of list_of_dict_1,
 #                  and the inner loop iterates a decreasing number of times
 #                  for each iteration of the outer loop (but NOT M!).
