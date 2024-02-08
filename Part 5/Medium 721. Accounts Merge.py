@@ -1,6 +1,6 @@
 from typing import List
 
-# Date of Last Practice: Dec 27, 2023
+# Date of Last Practice: Dec 27, 2023 -> Feb 7, 2024
 #
 # Time Complexity: O(A * E) + O(N * log N), where A is the number of accounts,
 #                  E is the average number of emails per account, and

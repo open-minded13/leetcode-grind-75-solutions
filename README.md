@@ -45,7 +45,7 @@ Current Progress: 70/75.
 ## Part 3
 
 - [x] [Medium 3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) (picked in Blind 75) | Algo: Sliding Window Technique
-- [x] [Medium 15. 3Sum](https://leetcode.com/problems/3sum/) ⭐️ (picked in Blind 75) | Algo: Two-Pointer Technique and Dictionary (Hashmap); DS: Hashing
+- [x] ⭐️ [Medium 15. 3Sum](https://leetcode.com/problems/3sum/) (picked in Blind 75) | Algo: Two-Pointer Technique and Dictionary (Hashmap); DS: Hashing
 - [x] [Medium 57. Insert Interval](https://leetcode.com/problems/insert-interval/) (picked in Blind 75)
 - [x] [Medium 102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) (picked in Blind 75) | Algo: Breadth-First Search
 - [x] [Medium 133. Clone Graph](https://leetcode.com/problems/clone-graph/) (picked in Blind 75) | Algo: Breadth-First Search
@@ -55,10 +55,10 @@ Current Progress: 70/75.
 
 ## Part 4
 
-- [x] [Medium 98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) (picked in Blind 75) | Algo: Depth-First Search
-- [x] [Medium 155. Min Stack](https://leetcode.com/problems/min-stack/) | DS: Stack
+- [x] ⭐️ [Medium 98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) (picked in Blind 75) | Algo: Depth-First Search
+- [x] ⭐️ [Medium 155. Min Stack](https://leetcode.com/problems/min-stack/) | DS: Stack
 - [x] [Medium 200. Number of Islands](https://leetcode.com/problems/number-of-islands/) (picked in Blind 75) | Algo: Depth-First Search
-- [x] [Medium 207. Course Schedule](https://leetcode.com/problems/course-schedule/) (picked in Brind 75) | Algo: Depth-First Search
+- [x] ⭐️ [Medium 207. Course Schedule](https://leetcode.com/problems/course-schedule/) (picked in Brind 75) | Algo: Depth-First Search
 - [x] [Medium 208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | DS: Trie Tree
 - [x] [Medium 238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) (picked in Blind 75)
 - [x] [Medium 322. Coin Change](https://leetcode.com/problems/coin-change/) (picked in Blind 75) | Algo: Dynamic Programming
@@ -72,7 +72,7 @@ Current Progress: 70/75.
 - [x] [Medium 56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) (picked in Blind 75)
 - [x] [Medium 75. Sort Colors](https://leetcode.com/problems/sort-colors/) | Algo: Dutch National Flag
 - [x] [Medium 236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | Algo: Depth-First Search
-- [x] [Medium 721. Accounts Merge](https://leetcode.com/problems/accounts-merge/) | DS: Disjoint Set Union (DSU or Union–Find Data Structure)
+- [x] ⭐️ [Medium 721. Accounts Merge](https://leetcode.com/problems/accounts-merge/) | DS: Disjoint Set Union (DSU or Union–Find Data Structure)
 - [x] [Medium 981. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) | Algo: Binary Search
 
 ## Part 6
