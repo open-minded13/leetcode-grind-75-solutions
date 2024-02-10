@@ -1,6 +1,6 @@
 from typing import List
 
-# Date of Last Practice: Dec 20, 2023
+# Date of Last Practice: Dec 20, 2023 -> Feb 8, 2024
 #
 # Time Complexity: O(N*M), where N is the number of coins and M is the number of
 #                  the amount variable.
