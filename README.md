@@ -66,8 +66,8 @@ Current Progress: 70/75.
 
 ## Part 5
 
-- [x] [Medium 33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) (picked in Blind 75)
-- [x] [Medium 39. Combination Sum](https://leetcode.com/problems/combination-sum/) | Algo: Backtracking
+- [x] ⭐️ [Medium 33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) (picked in Blind 75)
+- [x] ⭐️ [Medium 39. Combination Sum](https://leetcode.com/problems/combination-sum/) | Algo: Backtracking
 - [x] [Medium 46. Permutations](https://leetcode.com/problems/permutations/) | Algo: Backtracking
 - [x] [Medium 56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) (picked in Blind 75)
 - [x] [Medium 75. Sort Colors](https://leetcode.com/problems/sort-colors/) | Algo: Dutch National Flag

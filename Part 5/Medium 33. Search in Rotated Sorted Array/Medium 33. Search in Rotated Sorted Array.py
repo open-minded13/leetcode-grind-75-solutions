@@ -1,3 +1,11 @@
+# Date of Last Practice: Jun 12, 2023 -> Feb 12, 2024
+#
+# Time Complexity: O(log N), where N is the length of the input nums.
+#
+# Space Complexity: O(1), because the space used by the variables is not dependent
+#                   on the size of the input array.
+
+
 class Solution:
     def search(self, nums, target) -> int:
         left = 0
@@ -23,7 +31,6 @@ class Solution:
                     left = pivot + 1
                 else:
                     right = pivot - 1
-
         return -1
 
 

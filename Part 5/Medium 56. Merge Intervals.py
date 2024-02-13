@@ -1,6 +1,6 @@
 from typing import List
 
-# Date of Last Practice: Dec 26, 2023
+# Date of Last Practice: Dec 26, 2023 -> Feb 12, 2024
 #
 # Time Complexity: O(N * log N), where N is the number of intervals.
 #                  This is due to the initial sort.
