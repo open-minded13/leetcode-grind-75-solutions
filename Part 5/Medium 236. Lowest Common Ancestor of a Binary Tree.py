@@ -1,4 +1,4 @@
-# Date of Last Practice: Dec 26, 2023
+# Date of Last Practice: Dec 26, 2023 -> Feb 13, 2024
 #
 # Time Complexity: O(N), where N is the number of nodes in the tree.
 #                  The DFS algorithm traverses each node of the binary tree once
