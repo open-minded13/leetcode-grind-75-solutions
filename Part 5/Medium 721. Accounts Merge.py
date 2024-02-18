@@ -1,6 +1,6 @@
 from typing import List
 
-# Date of Last Practice: Dec 27, 2023 -> Feb 7, 2024
+# Date of Last Practice: Dec 27, 2023 -> Feb 7, 2024 -> Feb 15, 2024
 #
 # Time Complexity: O(A * E) + O(N * log N), where A is the number of accounts,
 #                  E is the average number of emails per account, and
@@ -55,6 +55,7 @@ class DSU:
     def union(self, x, y):
         px, py = self.find(x), self.find(y)
         if px != py:
+            # Note it is self.parent[px], not self.parent[x]!
             self.parent[px] = py
 
 
