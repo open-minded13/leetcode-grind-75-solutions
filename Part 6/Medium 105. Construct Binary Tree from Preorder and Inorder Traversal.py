@@ -1,6 +1,6 @@
 from typing import List, Optional
 
-# Date of Last Practice: Jan 1, 2024
+# Date of Last Practice: Jan 1, 2024 -> Feb 20, 2024
 #
 # Time Complexity: O(N), where N is the number of nodes.
 #                  Creating the hashmap (inorder_index_map) takes O(N) time.
@@ -34,6 +34,7 @@ class Solution:
             if left > right:
                 return None
 
+            # NOTE: pop(0) != pop()
             root_value = preorder.pop(0)
             root = TreeNode(root_value)
             position = inorder_index_map[root_value]
@@ -43,7 +44,7 @@ class Solution:
 
             return root
 
-        return find_subtree(0, len(inorder) - 1)
+        return find_subtree(0, len(inorder) - 
 
 
 # Helper function to get the inorder traversal of the tree

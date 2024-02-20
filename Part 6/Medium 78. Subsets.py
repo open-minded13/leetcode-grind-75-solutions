@@ -1,6 +1,6 @@
 from typing import List
 
-# Date of Last Practice: Dec 31, 2023
+# Date of Last Practice: Dec 31, 2023 -> Feb 20, 2024
 #
 # Time Complexity: O(2^N), where N is the length of the input nums array.
 #                  Each element in the array has two choices —
