@@ -1,4 +1,4 @@
-# Date of Last Practice: Jan 5, 2024
+# Date of Last Practice: Jan 5, 2024 -> Feb 21, 2024
 #
 # Time Complexity: O(N*S), where N is the number of elements in the array.
 #                  We iterate over each element to calculate the sum of the array, O(N).
