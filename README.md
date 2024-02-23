@@ -92,7 +92,7 @@ Current Progress: 70/75.
 - [x] [Medium 11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) (picked in Blind 75)
 - [x] [Medium 17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 - [x] [Medium 79. Word Search](https://leetcode.com/problems/word-search/) (picked in Blind 75) | Algo: Depth-First Search
-- [x] [Medium 146. LRU Cache](https://leetcode.com/problems/lru-cache/) | DS: Doubly Linked List
+- [x] ⭐️ [Medium 146. LRU Cache](https://leetcode.com/problems/lru-cache/) | DS: Doubly Linked List
 - [x] [Medium 310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) | Algo: Centroid Decomposition & Pruning; DS: Adjacency List
 - [x] [Medium 438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | Algo: Fixed-Size Sliding Window; DS: Hash Table
 - [x] [Medium 621. Task Scheduler](https://leetcode.com/problems/task-scheduler/) | Algo: Greedy Approach; DS: Hash Table
