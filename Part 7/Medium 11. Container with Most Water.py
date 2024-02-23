@@ -1,16 +1,23 @@
+# Date of Last Practice: Jun 14, 2023 -> Feb 21, 2024
+#
 # Time Complexity: O(N), where N is the length of the input list (height).
 #                  This is because the algorithm iterates over the list once in a loop.
-#                  Each iteration performs constant time operations, such as comparisons and arithmetic calculations.
+#                  Each iteration performs constant time operations,
+#                  such as comparisons and arithmetic calculations.
 #
 # Space Complexity: O(1). The algorithm only uses a constant amount of extra space
 #                   to store variables (max_area, left, and right).
-#                   Regardless of the size of the input list, the amount of memory used by the algorithm remains the same.
+#                   Regardless of the size of the input list,
+#                   the amount of memory used by the algorithm remains the same.
 
 
 # Optimized Solution: Two-Pointer Technique
+#
 # In each iteration, we move the pointer with the smaller height towards the center.
 # This is because moving the pointer with the larger height will only decrease the width
 # and can never increase the area.
+
+
 class Solution:
     def maxArea(self, height: list[int]) -> int:
         left = 0

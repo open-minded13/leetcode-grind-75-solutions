@@ -1,4 +1,4 @@
-# Date of Last Practice: Jan 9, 2024
+# Date of Last Practice: Jan 9, 2024 -> Feb 22, 2024
 #
 # Time Complexity: O(N^2 * M^2), where N is the number of rows and M is the number of columns.
 #                  For each cell that matches the first letter of the word, we perform a DFS.
@@ -17,6 +17,47 @@ from typing import List
 
 
 class Solution:
+    def exist(self, board: List[List[str]], word: str) -> bool:
+
+        dfs_sources = []
+        for i in range(len(board)):
+            for j in range(len(board[0])):
+                if board[i][j] == word[0]:
+                    dfs_sources.append((i, j))
+
+        self.is_found = False
+        directions = [(1, 0), (-1, 0), (0, 1), (0, -1)]
+        current_checking_path = set()
+
+        def dfs(row, col, index):
+            if (
+                not (
+                    0 <= row < len(board)
+                    and 0 <= col < len(board[0])
+                    and (row, col) not in current_checking_path
+                )
+                or board[row][col] != word[index]
+            ):
+                return
+            if index == len(word) - 1:
+                self.is_found = True
+                return
+
+            current_checking_path.add((row, col))
+            for dr, dc in directions:
+                dfs(row + dr, col + dc, index + 1)
+            current_checking_path.remove((row, col))
+
+        for row, col in dfs_sources:
+            dfs(row, col, 0)
+
+        return self.is_found
+
+
+class SameSolution:
+    # This is the version I used on Jan 8, 2023,
+    # but I like the new version above because it is cleaner and easier to debug.
+
     def exist(self, board: List[List[str]], word: str) -> bool:
         dfs_sources = []
         row_length = len(board)
