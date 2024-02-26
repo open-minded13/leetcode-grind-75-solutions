@@ -1,7 +1,7 @@
 import sys
 from typing import List
 
-# Date of Last Practice: Jan 14, 2024
+# Date of Last Practice: Jan 14, 2024 -> Feb 23, 2024
 #
 # Time Complexity: O(N), where N is the number of nodes in the tree.
 #                  Each node is removed once, and their edge reductions can be done in O(1).
@@ -15,7 +15,8 @@ from typing import List
 #                         For the minimum height trees, the centroids will be the roots.
 #                         NOTE: "A tree can have at most 2 centroids."
 #
-# Pruning the Tree: The algorithm starts by identifying all leaf nodes (nodes with only one neighbor).
+# Pruning the Tree: The algorithm starts by identifying all leaf nodes
+#                   (nodes with only one neighbor).
 #                   These leaves are then pruned from the tree, and the process is repeated.
 #                   As leaves are pruned, the new leaf nodes are identified in the reduced tree.
 #                   This process continues until only one or two nodes remain,

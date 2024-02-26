@@ -1,16 +1,9 @@
 # Date of Last Practice: Jan 9, 2024 -> Feb 22, 2024
 #
-# Time Complexity: O(N^2 * M^2), where N is the number of rows and M is the number of columns.
-#                  For each cell that matches the first letter of the word, we perform a DFS.
-#                  The worst-case time complexity of DFS in a grid is O(N*M).
-#                  However, since we have multiple possible starting points, in the worst case,
-#                  this could be every cell in the grid.
-#                  Therefore, the time complexity is O(N*M*N*M) = O(N^2 * M^2).
-#                  The time complexity might seem high,
-#                  but given the small size of the grid and word, it's quite reasonable.
+# Time Complexity: O(N*M*4^K), where N is the number of rows, M is the number of columns,
+#                  and K is length of the word.
 #
-# Space Complexity: O(N*M), where N is the number of rows and M is the number of columns.
-#                   The space complexity is mainly due to the 'visited' array.
+# Space Complexity: O(4^K), where K is length of the word.
 
 
 from typing import List
