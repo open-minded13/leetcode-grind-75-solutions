@@ -1,9 +1,17 @@
 # Date of Last Practice: Jan 9, 2024 -> Feb 22, 2024
 #
 # Time Complexity: O(N*M*4^K), where N is the number of rows, M is the number of columns,
-#                  and K is length of the word.
+#                  and K is length of the word. In the worst case,
+#                  we may have to explore all possible paths to find the word.
+#                  For each cell, we explore at most four directions,
+#                  so the time complexity of the DFS search is O(4^K),
+#                  where K is the length of the word.
 #
-# Space Complexity: O(4^K), where K is length of the word.
+# Space Complexity: O(K) or O(M*N), where N is the number of rows, M is the number of columns,
+#                   and K is length of the word. Typically, the depth of a recursive stack is O(K).
+#                   However, sometimes in the worst case,
+#                   when each cell is the source of depth-first search,
+#                   we will need to iterate M*N elements.
 
 
 from typing import List
