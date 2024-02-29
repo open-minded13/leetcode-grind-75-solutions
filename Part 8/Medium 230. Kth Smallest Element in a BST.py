@@ -1,6 +1,6 @@
 from typing import Optional
 
-# Date of Last Practice: Jan 21, 2024
+# Date of Last Practice: Jan 21, 2024 -> Feb 29, 2024
 #
 # Time Complexity: O(K), where K is the input integer K.
 #                  Once we've found the Kth smallest node, we can return its value immediately.
