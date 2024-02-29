@@ -1,6 +1,6 @@
 from typing import List
 
-# Date of Last Practice: Jan 25, 2024
+# Date of Last Practice: Jan 25, 2024 -> Feb 29, 2024
 #
 # Time Complexity: O(N), where N is the length of the height list.
 #                  The two-pointer technique helps us iterate each element once.
@@ -18,17 +18,46 @@ class Solution:
 
         while left < right:
             if height[left] < height[right]:
-                if height[left] > max_left:
-                    max_left = height[left]
+                max_left = max(max_left, height[left])
                 trapped_water += max_left - height[left]
                 left += 1
             else:
-                if height[right] > max_right:
-                    max_right = height[right]
+                max_right = max(max_right, height[right])
                 trapped_water += max_right - height[right]
                 right -= 1
 
         return trapped_water
+
+
+class Second_Solution:
+    def trap(self, height: List[int]) -> int:
+        water_trapped = 0
+
+        # left to right, including the [2, 0, 2] situation
+        temp = 0
+        left, right = 0, 0
+        while left <= right < len(height):
+            if height[right] < height[left]:
+                temp += height[left] - height[right]
+            else:
+                water_trapped += temp
+                temp = 0
+                left = right
+            right += 1
+
+        # right to left
+        temp = 0
+        left, right = len(height) - 1, len(height) - 1
+        while 0 <= left <= right:
+            if height[left] <= height[right]:
+                temp += height[right] - height[left]
+                left -= 1
+            else:
+                water_trapped += temp
+                temp = 0
+                right = left
+
+        return water_trapped
 
 
 class First_Solution:
