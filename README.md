@@ -95,7 +95,7 @@ Current Progress: 70/75.
 - [x] ⭐️ [Medium 146. LRU Cache](https://leetcode.com/problems/lru-cache/) | DS: Doubly Linked List
 - [x] [Medium 310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) | Algo: Centroid Decomposition & Pruning; DS: Adjacency List
 - [x] [Medium 438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | Algo: Fixed-Size Sliding Window; DS: Hash Table
-- [x] [Medium 621. Task Scheduler](https://leetcode.com/problems/task-scheduler/) | Algo: Greedy Approach; DS: Hash Table
+- [x] ⭐️ [Medium 621. Task Scheduler](https://leetcode.com/problems/task-scheduler/) | Algo: Greedy Approach; DS: Hash Table
 
 ## Part 8
 

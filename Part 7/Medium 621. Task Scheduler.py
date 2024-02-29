@@ -1,7 +1,7 @@
 from typing import List
 from collections import Counter
 
-# Date of Last Practice: Jan 17, 2024
+# Date of Last Practice: Jan 17, 2024 -> Feb 26, 2024
 #
 # Time Complexity: O(N), where N is the number of tasks.
 #
@@ -11,11 +11,16 @@ from collections import Counter
 #                   there's a fixed maximum of 26 possible tasks.
 #                   Therefore, this space requirement is O(1) — constant space.
 #
-# Step 1 - The Most Frequent Task Sets the Minimum Timeframe:
-#          The task that occurs the most frequently sets a minimum bound for the time needed.
+# Step 1 - The Most Frequent Tasks Set the Minimum Timeframe:
+#          The tasks that occurs the most frequently sets a minimum bound for the time needed.
 #          This is because it will require the most cooldown periods.
+#          NOTE: We may have multiple tasks occur the most frequently to initialize.
+#                Let's consider tasks = "AAAA BBBB C D E FFF".
+#                If you only initialize one of the most frequent tasks,
+#                such as "A___A___A___A", you will get a result "ABCDABEFABF_BF",
+#                which is not the most efficient as "ABFCABFDABFEAB".
 #
-# Step 2 - Idle Slots: After placing the most frequent task with its necessary cooldown periods,
+# Step 2 - Idle Slots: After placing the most frequent tasks with its necessary cooldown periods,
 #          we get a series of slots that can be filled with other tasks.
 #
 # Step 3 - Filling the Slots: If we can fill all these slots with other tasks,
@@ -42,17 +47,24 @@ from collections import Counter
 
 class Solution:
     def leastInterval(self, tasks: List[str], n: int) -> int:
-        task_counts = Counter(tasks)
-        max_count = max(task_counts.values())
-        tasks_with_max_count = sum(
-            1 for count in task_counts.values() if count == max_count
+        task_dict = Counter(tasks)
+        max_count = max(task_dict.values())
+        num_of_different_max_count_tasks = sum(
+            1 for count in task_dict.values() if count == max_count
         )
-        part_count = max_count - 1
-        part_length = max(0, n - (tasks_with_max_count - 1))
-        empty_slots = part_count * part_length
-        available_tasks = len(tasks) - tasks_with_max_count * max_count
-        idles = max(0, empty_slots - available_tasks)
-        return len(tasks) + idles
+        num_of_gaps = max_count - 1
+        intervals_in_each_gap = max(0, n - (num_of_different_max_count_tasks - 1))
+        total_intervals = intervals_in_each_gap * num_of_gaps
+        num_of_remaining_tasks = (
+            len(tasks) - num_of_different_max_count_tasks * max_count
+        )
+        num_of_idles = max(0, total_intervals - num_of_remaining_tasks)
+        result = (
+            num_of_different_max_count_tasks * max_count
+            + num_of_idles
+            + num_of_remaining_tasks
+        )
+        return result
 
 
 # Test cases
