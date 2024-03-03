@@ -1,4 +1,4 @@
-# Date of Last Practice: Jan 28, 2024
+# Date of Last Practice: Jan 28, 2024 -> Mar 3, 2024
 #
 # Time Complexity: O(M+N), where M is the length of s, and N is the length of t.
 #                  Creating t_dict from string t using Counter(t) takes O(N) time.
@@ -9,11 +9,54 @@
 #                   The storage of t_dict and char_counter,
 #                   which contain at most all unique characters of t.
 
-from collections import Counter
+from collections import Counter, defaultdict
 import sys
 
 
 class Solution:
+    def minWindow(self, s: str, t: str) -> str:
+
+        if not t:
+            return ""
+
+        s_counter = defaultdict(int)
+        t_counter = defaultdict(int)
+        num_of_char = len(t)
+        counter = 0
+
+        for char in t:
+            t_counter[char] += 1
+
+        left, right = 0, 0
+        min_substring_len = sys.maxsize
+        output = ""
+        while left <= right < len(s):
+            if s[right] in t_counter:
+                s_counter[s[right]] += 1
+                if s_counter[s[right]] <= t_counter[s[right]]:
+                    counter += 1
+
+            if counter == num_of_char:
+                while counter == num_of_char:
+                    if s[left] in t_counter:
+                        s_counter[s[left]] -= 1
+                        if s_counter[s[left]] < t_counter[s[left]]:
+                            counter -= 1
+                    left += 1
+
+                len_of_substring = right - (left - 1) + 1
+                if len_of_substring < min_substring_len:
+                    min_substring_len = len_of_substring
+                    output = s[left - 1 : right + 1]
+
+            right += 1
+
+        return output
+
+
+class SecondSolution:
+    """This solution has the same time and space complexity."""
+
     def minWindow(self, s: str, t: str) -> str:
         if len(t) > len(s):
             return ""
@@ -47,7 +90,7 @@ class Solution:
         return s[ans[0] : ans[1] + 1] if min_window_length != sys.maxsize else ""
 
 
-class First_Solution:
+class FirstSolution:
     def minWindow(self, s: str, t: str) -> str:
         if len(t) > len(s):
             return ""
