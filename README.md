@@ -104,7 +104,7 @@ Current Progress: 70/75.
 - [x] [Hard 42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Algo: Two-Pointer Technique
 - [x] [Hard 76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) (picked in Blind 75) | Algo: Sliding Window; DS: Hash Table
 - [x] ⭐️ [Hard 84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | DS: Stack
-- [ ] [Hard 127. Word Ladder](https://leetcode.com/problems/word-ladder/)
+- [x] [Hard 127. Word Ladder](https://leetcode.com/problems/word-ladder/) | Algo: Breadth-First Search; DS: Queue, Hash Table
 - [ ] [Hard 224. Basic Calculator](https://leetcode.com/problems/basic-calculator/)
 - [ ] [Hard 295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
 - [ ] [Hard 297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
