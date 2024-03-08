@@ -112,8 +112,8 @@ Current Progress: 72/75.
 
 ## Additional Exercises
 
+- [x] [Easy 408. Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/description/)
 - [x] [Medium 138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/) | DS: Linked List
 - [x] ⭐️ [Medium 528. Random Pick with Weight.py](https://leetcode.com/problems/random-pick-with-weight/description/) | Algo: Binary Search; DS: Prefix Sum Array
 - [x] [Medium 314. Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/) | Algo: Breadth-First Search (BFS), DS: Queue
-- [x] [Easy 408. Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/description/)
 - [x] [Medium 2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) | Algo: Carry Management
