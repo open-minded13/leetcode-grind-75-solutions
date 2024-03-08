@@ -1,4 +1,4 @@
-# LeetCode 75 Grind Questions Challenge
+# LeetCode 75 Grind Questions Challenge + Additional Exercises
 
 [**Grind 75**](https://www.techinterviewhandbook.org/grind75) is a dynamic list of top LeetCode interview questions created in 2023. It's up-to-date and well-chosen. We can personalize it according to our schedule, time constraints, and preferences.
 
@@ -109,3 +109,11 @@ Current Progress: 72/75.
 - [ ] [Hard 295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
 - [ ] [Hard 297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
 - [ ] [Hard 1235. Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)
+
+## Additional Exercises
+
+- [x] [Medium 138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/) | DS: Linked List
+- [x] ⭐️ [Medium 528. Random Pick with Weight.py](https://leetcode.com/problems/random-pick-with-weight/description/) | Algo: Binary Search; DS: Prefix Sum Array
+- [x] [Medium 314. Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/) | Algo: Breadth-First Search (BFS), DS: Queue
+- [x] [Easy 408. Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/description/)
+- [x] [Medium 2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) | Algo: Carry Management
