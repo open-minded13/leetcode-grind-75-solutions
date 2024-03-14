@@ -125,3 +125,9 @@ Current Progress: 72/75.
 - [x] [Medium 1570. Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/)
 - [x] [Medium 1650. Lowest Common Ancestor of a Binary Tree III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/) | Algo: Depth-First Search
 - [x] [Medium 1762. Buildings with an Ocean View](https://leetcode.com/problems/buildings-with-an-ocean-view/description/) | DS: Monotonic Stack
+
+Sun:
+- [x] [Medium 215. Kth Largest Element in an Array](https://leetcode.com/problems/buildings-with-an-ocean-view/description/) | Algo: Quickselect (Fastest in Average Cases), DS: Heap (Good in All Cases)
+- [x] [Easy 938. Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)
+- [x] [Medium 791. Custom Sort String](https://leetcode.com/problems/custom-sort-string/description/)
+- [x] [Medium 426. Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/description/)
