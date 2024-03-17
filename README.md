@@ -114,20 +114,24 @@ Current Progress: 72/75.
 
 - [x] [Easy 408. Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/description/)
 - [x] [Easy 680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | Algo: Two-Pointer Technique
+- [x] [Easy 938. Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)
 - [x] [Medium 2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) | Algo: Carry Management
 - [x] [Medium 138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/) | DS: Linked List
+- [x] [Medium 215. Kth Largest Element in an Array](https://leetcode.com/problems/buildings-with-an-ocean-view/description/) | Algo: Quickselect (Fastest in Average Cases), DS: Heap (Good in All Cases)
 - [x] ⭐️ [Medium 227. Basic Calculator](https://leetcode.com/problems/basic-calculator-ii/description/) | DS: Stack
 - [x] [Medium 314. Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/) | Algo: Breadth-First Search (BFS), DS: Queue
 - [x] [Medium 339. Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum/description/)
+- [x] [Medium 426. Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/description/)
 - [x] ⭐️ [Medium 528. Random Pick with Weight.py](https://leetcode.com/problems/random-pick-with-weight/description/) | Algo: Binary Search; DS: Prefix Sum Array
 - [x] [Medium 763. Partition Labels](https://leetcode.com/problems/partition-labels/) | Algo: Two-Pointer Technique, Dynamic Sliding Window, Greedy Method
+- [x] [Medium 791. Custom Sort String](https://leetcode.com/problems/custom-sort-string/description/)
+- [x] [Medium 841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/description/)
 - [x] [Medium 1249. Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/description/) | DS: Stack
 - [x] [Medium 1570. Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/)
 - [x] [Medium 1650. Lowest Common Ancestor of a Binary Tree III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/) | Algo: Depth-First Search
 - [x] [Medium 1762. Buildings with an Ocean View](https://leetcode.com/problems/buildings-with-an-ocean-view/description/) | DS: Monotonic Stack
 
-Sun:
-- [x] [Medium 215. Kth Largest Element in an Array](https://leetcode.com/problems/buildings-with-an-ocean-view/description/) | Algo: Quickselect (Fastest in Average Cases), DS: Heap (Good in All Cases)
-- [x] [Easy 938. Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)
-- [x] [Medium 791. Custom Sort String](https://leetcode.com/problems/custom-sort-string/description/)
-- [x] [Medium 426. Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/description/)
+## Today
+
+- [x] [Easy 346. Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)
+- [x] ⭐️ [Medium 71. Simplify Path](https://leetcode.com/problems/simplify-path/description/)
