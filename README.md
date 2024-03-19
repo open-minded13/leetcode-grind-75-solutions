@@ -39,7 +39,7 @@ Current Progress: 72/75.
 - [x] [Easy 383. Ransom Note](https://leetcode.com/problems/ransom-note/)
 - [x] [Easy 409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)
 - [x] [Easy 543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) Algo: Depth-First Search; Another Takeaway: Mutable Objects (list, dict, set)
-- [x] [Easy 876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
+- [x] ⭐️ [Easy 876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
 - [x] [Medium 53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) (picked in Blind 75) | Algo: Kadane's Algo
 
 ## Part 3
@@ -72,7 +72,7 @@ Current Progress: 72/75.
 - [x] [Medium 56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) (picked in Blind 75)
 - [x] [Medium 75. Sort Colors](https://leetcode.com/problems/sort-colors/) | Algo: Dutch National Flag
 - [x] [Medium 236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | Algo: Depth-First Search
-- [x] ⭐️ [Medium 721. Accounts Merge](https://leetdcode.com/problems/accounts-merge/) | DS: Disjoint Set Union (DSU or Union–Find Data Structure)
+- [x] ⭐️ [Medium 721. Accounts Merge](https://leetcode.com/problems/accounts-merge/) | DS: Disjoint Set Union (DSU or Union–Find Data Structure)
 - [x] ⭐️ [Medium 981. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) | Algo: Binary Search
 
 ## Part 6
