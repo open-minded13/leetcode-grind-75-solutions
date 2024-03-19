@@ -44,6 +44,25 @@ class Solution:
         return self.sum
 
 
+class AntherSolution:
+    def sumNumbers(self, root: TreeNode) -> int:
+        self.sum = 0
+
+        def _dfs(node, value):
+            if node.left is None and node.right is None:
+                self.sum += value
+                return
+
+            if node.left:
+                _dfs(node.left, value * 10 + node.left.val)
+            if node.right:
+                _dfs(node.right, value * 10 + node.right.val)
+
+        _dfs(root, root.val)
+
+        return self.sum
+
+
 # Helper function to create a binary tree from a list of values
 def create_tree(values):
     if not values:
