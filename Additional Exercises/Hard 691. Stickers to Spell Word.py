@@ -3,9 +3,58 @@ from collections import Counter, defaultdict
 from typing import List
 from functools import lru_cache
 
+# Date of Last Practice: Mar 18, 2024
+#
+# Time Complexity: O(N⋅2^T), where N is the number of stickers and
+#                  T is the length of the target string.
+#
+#   1) Preprocessing Stickers: The algorithm preprocesses the list of stickers
+#       by filtering out those not sharing any characters with the target and
+#       converting the remaining ones into Counter objects.
+#       This operation has a time complexity of O(N*M),
+#       where N is the number of stickers and M is the maximum length of a sticker,
+#       due to the iteration and set intersection operations.
+#
+#   2) DFS Calls: The DFS function is memoized, which means each unique state of
+#       the remaining target string will be computed exactly once.
+#       The number of unique states can be up to 2^T in the worst case,
+#       where T is the length of the target string,
+#       representing different combinations of characters remaining.
+#
+#   3) Within Each DFS Call: For each call, the algorithm iterates over each preprocessed sticker,
+#       and for each sticker, it may construct a new target state by subtracting
+#       the Counter of the sticker from the Counter of the remaining target.
+#       The subtraction and construction of the new target state are linear in
+#       the size of the target, leading to O(T) complexity for this operation.
+#
+#   4) Considering the recursion and the operations within each call,
+#       the time complexity can be difficult to directly quantify due to the combinatorial nature of
+#       the problem and the impact of memoization. However, it can be broadly described as O(N⋅2^T)
+#       under the assumption that each DFS call could potentially iterate over all stickers
+#       and perform operations linear in the size of the target.
+#
+# Space Complexity: O(2^T+T+N*M), where N is the number of stickers,
+#                   T is the length of the target string, and
+#                   M is the maximum length of a sticker.
+#
+#   1) Memoization Cache: The space complexity is primarily determined by the size of the
+#       memoization cache, which stores results for different states of the remaining target string.
+#       In the worst case, this could be up to 2^T unique states.
+#
+#   2) Call Stack: The depth of the DFS call stack can go up to T in the worst case.
+#
+#   3) Preprocessed Stickers: Storing the preprocessed stickers as Counter objects need O(N*M).
+
 
 class Solution:
     def minStickers(self, stickers: List[str], target: str) -> int:
+
+        # Preprocess stickers: Keep only those stickers that have characters
+        # in common with the target and convert them to Counter objects for easy manipulation
+        preprocessed_stickers = [
+            Counter(sticker) for sticker in stickers if set(sticker) & set(target)
+        ]
+
         # Memoized DFS to minimize the number of stickers required
         @lru_cache(None)
         def dfs(remaining_target):
@@ -40,12 +89,6 @@ class Solution:
 
             # If no solution was found, return -1, otherwise return the minimum stickers needed
             return -1 if min_stickers_needed == float("inf") else min_stickers_needed
-
-        # Preprocess stickers: Keep only those stickers that have characters in common with the target
-        # and convert them to Counter objects for easy manipulation
-        preprocessed_stickers = [
-            Counter(sticker) for sticker in stickers if set(sticker) & set(target)
-        ]
 
         # Solve the problem
         return dfs(target)
