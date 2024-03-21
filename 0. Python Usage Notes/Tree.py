@@ -1,4 +1,4 @@
-# Date of Last Practice: 1st July 2023
+# Date of Last Practice: Jul 1 2023
 
 
 class TreeNode:

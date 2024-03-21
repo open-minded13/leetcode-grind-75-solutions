@@ -1,4 +1,4 @@
-# Date of Last Practice: 26 Dec, 2023 -> 31 Dec, 2023
+# Date of Last Practice: Dec 26, 2023 -> Dec 31, 2023 -> Mar 21, 2024
 
 # Differences Between sort() and sorted()
 # 1. Modification: sort() sorts the list in place and

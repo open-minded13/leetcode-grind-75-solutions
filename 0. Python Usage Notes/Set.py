@@ -1,4 +1,4 @@
-# Date of Last Practice: 23 Oct, 2023 -> Feb 2, 2024
+# Date of Last Practice: Oct 23, 2023 -> Feb 2, 2024 -> Mar 21, 2024
 
 # In Python, the set() data structure is a built-in collection type that
 # represents an unordered collection of unique elements.
@@ -47,23 +47,23 @@ print("Symmetric Difference:", my_set_1.symmetric_difference(my_set_2))
 # from a list by converting the list to a set and then converting it back to a list.
 # Since sets only store unique elements, any duplicates are automatically removed. For example:
 #
-# list_1 = []
+# list_1 = [1, 2, 3, 2, 3]
 # unique_elements =
+# print(unique_elements)
 
 # Checking for membership: Sets are useful for quickly checking if an element exists
 # in a collection without iterating over the entire collection.
 # This is particularly efficient for large collections. For example:
 #
-# set_1 =
-# print()
+# set_1 = set(list_1)
 
 # Set operations: Sets support various set operations such as union, intersection, difference,
 # and symmetric difference. These operations can be handy for tasks like finding common elements
 # between sets, finding unique elements, or comparing sets. For example:
-
-# set_2 =
-# set_3 =
-# print("Union:", )
-# print("Intersection:", )
-# print("Difference:", )
-# print("Symmetric Difference:", )
+#
+# set_2 = set([3, 5, 4])
+# set_3 = set([3, 5, 8])
+# print("Union:",)
+# print("Intersection:",)
+# print("Difference:",)
+# print("Symmetric Difference:",)

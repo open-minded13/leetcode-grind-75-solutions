@@ -1,4 +1,4 @@
-# Date of Last Practice: 3rd July 2023
+# Date of Last Practice: Jul 3, 2023 -> Mar 21, 2024
 
 
 # Create strings
