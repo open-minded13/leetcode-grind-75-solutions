@@ -1,5 +1,5 @@
 # Date of Last Practice:
-#   July 1, 2023 -> Sep 5, 2023
+#   July 1, 2023 -> Sep 5, 2023 -> Mar 20, 2024
 
 
 # Create a Linked List
@@ -90,6 +90,7 @@ class LinkedList:
 # [Practice Makes You a Pro!]
 
 # Create a Linked List
+
 # Add element to the Linked List
 # Traverse the Linked List
 # Search for an Element in the Linked List

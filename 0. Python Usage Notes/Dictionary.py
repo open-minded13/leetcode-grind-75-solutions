@@ -1,4 +1,4 @@
-# Date of Last Practice: July 1, 2023
+# Date of Last Practice: July 1, 2023 -> Mar 20, 2024
 
 
 # Create an empty dictionary
@@ -81,13 +81,11 @@ if "apple" not in my_dict:
 
 # Another way to add and update values:
 
-
 # Access values using keys
 
 # Use the get() method to access a value with a fallback
 
 # Check if a key exists in the dictionary
-
 
 # Iterate over the keys and values in the dictionary
 # In Python, the my_dict.items() method returns a view object that
@@ -108,7 +106,6 @@ if "apple" not in my_dict:
 # Get a list of keys
 
 # Get a list of values
-
 
 # Remove key-value pairs:
 

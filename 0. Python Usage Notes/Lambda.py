@@ -1,4 +1,4 @@
-# Updated Usage Notes: Lambda Functions in Python
+# Date of Last Practice: Mar 20, 2024
 
 # Lambda Basics
 # A lambda function is a small anonymous function that can take any number of arguments, but can only have one expression.
@@ -41,10 +41,9 @@ print("Example 6: Dictionary items sorted by value:", sorted_items)
 max_age_item = max(ages.items(), key=lambda item: item[1])
 print("Example 7: Key-value pair with the maximum value:", max_age_item)
 
+
 # Custom Objects Example
 # Using lambda functions to sort or compare custom objects.
-
-
 class Person:
     def __init__(self, name, age):
         self.name = name
