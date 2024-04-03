@@ -41,7 +41,7 @@ class Solution:
         self.finder(node.right)
 
 
-class First_Solution:
+class FirstSolution:
     def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
         in_order = []
 
