@@ -1,15 +1,23 @@
-# LeetCode 75 Grind Questions Challenge + Additional Exercises
+# LeetCode 75 Grind Questions Challenge
 
 [**Grind 75**](https://www.techinterviewhandbook.org/grind75) is a dynamic list of top LeetCode interview questions created in 2023. It's up-to-date and well-chosen. We can personalize it according to our schedule, time constraints, and preferences.
 
 [**Blind 75**](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU), on the other hand, is a curated list of LeetCode questions created in 2018. We can practice these questions to save time in the job-finding process. Many other LeetCode problems are technical mixes of these individual problems. I practice Blind 75 in parallel on this [**repository**](https://github.com/open-minded13/2023_LeetCode_Blind_75_Questions_Challenge).
 
-Goal: To achieve the review of the application of the following data structures and algorithms.
+To achieve the review of the application of the following data structures and algorithms, except the theory of NP-Completeness.
 
 - Data Structures: (1) Arrays; (2) Stacks and Queues; (3) Linked Lists; (4) Trees; (5) Graphs; (6) Sorting; (7) Hashing.
-- Algorithms: (1) Greedy Method; (2) Divide and Conquer; (3) Tree Searching Strategies; (4) Prune and Search; (5) Dynamic Programming; (6) The Theory of NP-Completeness.
+- Algorithms: (1) Greedy Method; (2) Divide and Conquer; (3) Tree Searching Strategies; (4) Prune and Search; (5) Dynamic Programming.
 
-Current Progress: 73/75.
+## Comprehensive Solutions & Analysis
+
+In this repository, you'll find each question meticulously solved with a focus on clarity and efficiency. To ensure you can verify and understand the solutions:
+
+- Organized Folders: Solutions are neatly organized into folders, labeled from Part 1 to Part 8, for easy navigation.
+- Test Cases: Each solution is accompanied by test cases that validate the code and demonstrate its correctness.
+- Complexity Analysis: Time and space complexities are provided for each solution, giving you insights into the efficiency of the algorithms used.
+
+Feel free to delve into the solutions, run the test cases, and review the complexity analysis to deepen your understanding of each problem. This hands-on approach is designed to help you become proficient in coding interviews, where such analyses are crucial.
 
 ## Part 1
 
@@ -109,30 +117,3 @@ Current Progress: 73/75.
 - [x] [Hard 295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) (picked in Blind 75) | DS: Min & Max Heaps (Priority Queue)
 - [ ] [Hard 297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
 - [ ] [Hard 1235. Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)
-
-## Additional Exercises
-
-- [x] [Easy 346. Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)
-- [x] [Easy 408. Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/description/)
-- [x] [Easy 680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | Algo: Two-Pointer Technique
-- [x] [Easy 938. Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)
-- [x] [Medium 2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) | Algo: Carry Management
-- [x] ⭐️ [Medium 71. Simplify Path](https://leetcode.com/problems/simplify-path/description/)
-- [x] [Medium 129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
-- [x] [Medium 138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/) | DS: Linked List
-- [x] [Medium 215. Kth Largest Element in an Array](https://leetcode.com/problems/buildings-with-an-ocean-view/description/) | Algo: Quickselect (Fastest in Average Cases), DS: Heap (Good in All Cases)
-- [x] ⭐️ [Medium 227. Basic Calculator](https://leetcode.com/problems/basic-calculator-ii/description/) | DS: Stack
-- [x] [Medium 314. Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/) | Algo: Breadth-First Search (BFS), DS: Queue
-- [x] [Medium 339. Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum/description/)
-- [x] [Medium 426. Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/description/)
-- [x] ⭐️ [Medium 528. Random Pick with Weight.py](https://leetcode.com/problems/random-pick-with-weight/description/) | Algo: Binary Search; DS: Prefix Sum Array
-- [x] [Medium 708. Insert into a Sorted Circular Linked List](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/)
-- [x] [Medium 763. Partition Labels](https://leetcode.com/problems/partition-labels/) | Algo: Two-Pointer Technique, Dynamic Sliding Window, Greedy Method
-- [x] [Medium 791. Custom Sort String](https://leetcode.com/problems/custom-sort-string/description/)
-- [x] [Medium 841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/description/)
-- [x] [Medium 921. Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/)
-- [x] [Medium 1249. Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/description/) | DS: Stack
-- [x] [Medium 1570. Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/)
-- [x] [Medium 1650. Lowest Common Ancestor of a Binary Tree III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/) | Algo: Depth-First Search
-- [x] [Medium 1762. Buildings with an Ocean View](https://leetcode.com/problems/buildings-with-an-ocean-view/description/) | DS: Monotonic Stack
-- [x] ⭐️ [Hard 691. Stickers to Spell Word](https://leetcode.com/problems/stickers-to-spell-word/description/) | Algo: DFS; DS: DFS Function Memoization, Counter & Set Operations
