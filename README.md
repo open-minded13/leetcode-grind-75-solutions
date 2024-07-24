@@ -9,6 +9,11 @@ To achieve the review of the application of the following data structures and al
 - Data Structures: (1) Arrays; (2) Stacks and Queues; (3) Linked Lists; (4) Trees; (5) Graphs; (6) Sorting; (7) Hashing.
 - Algorithms: (1) Greedy Method; (2) Divide and Conquer; (3) Tree Searching Strategies; (4) Prune and Search; (5) Dynamic Programming.
 
+## Project Timeline
+
+- **Start Date**: Apr 12, 2023
+- **Completion Date**: Apr 14, 2024 ⛳️
+
 ## Comprehensive Solutions & Analysis
 
 In this repository, you'll find each question meticulously solved with a focus on clarity and efficiency. To ensure you can verify and understand the solutions:
@@ -18,11 +23,6 @@ In this repository, you'll find each question meticulously solved with a focus o
 - **Complexity Analysis**: Time and space complexities are provided for each solution, giving you insights into the efficiency of the algorithms used.
 
 Feel free to delve into the solutions, run the test cases, and review the complexity analysis to deepen your understanding of each problem. This hands-on approach is designed to help you become proficient in coding interviews, where such analyses are crucial.
-
-## Project Timeline
-
-- **Start Date**: Apr 12, 2023
-- **Completion Date**: Apr 14, 2024
 
 ## Part 1
 
