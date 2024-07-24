@@ -2,7 +2,8 @@
 #
 # Time Complexity: O(N), where N is the total number of nodes in the tree.
 #
-# Space Complexity: O(1). We use a constant amount of additional space.
+# Space Complexity: O(H), where H is the height of the tree, due to the recursive call stack.
+#                   In the worst case, the tree could be skewed, making the space complexity O(N).
 
 from typing import Optional
 
