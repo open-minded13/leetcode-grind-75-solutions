@@ -1,4 +1,4 @@
-# LeetCode 75 Grind Questions Challenge
+# LeetCode 75 Grind Challenges with Solutions
 
 [**Grind 75**](https://www.techinterviewhandbook.org/grind75) is a dynamic list of top LeetCode interview questions created in 2023. It's up-to-date and well-chosen. We can personalize it according to our schedule, time constraints, and preferences.
 
@@ -18,6 +18,11 @@ In this repository, you'll find each question meticulously solved with a focus o
 - **Complexity Analysis**: Time and space complexities are provided for each solution, giving you insights into the efficiency of the algorithms used.
 
 Feel free to delve into the solutions, run the test cases, and review the complexity analysis to deepen your understanding of each problem. This hands-on approach is designed to help you become proficient in coding interviews, where such analyses are crucial.
+
+## Project Timeline
+
+- **Start Date**: Apr 12, 2023
+- **Completion Date**: Apr 14, 2024
 
 ## Part 1
 
