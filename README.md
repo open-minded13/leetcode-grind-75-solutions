@@ -1,4 +1,4 @@
-# LeetCode 75 Grind Challenges with Solutions
+# LeetCode Grind 75 Challenges with Solutions
 
 [**Grind 75**](https://www.techinterviewhandbook.org/grind75) is a dynamic list of top LeetCode interview questions created in 2023. It's up-to-date and well-chosen. We can personalize it according to our schedule, time constraints, and preferences.
 
