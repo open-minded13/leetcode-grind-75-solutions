@@ -1,6 +1,6 @@
 # LeetCode Grind 75 Challenges with Solutions
 
-If you find this repository helpful, please give me a star to inspire me to keep it updated and benefit more people. Thank you! 🌟
+> If you find this repository helpful, please give me a star to inspire me to keep it updated and benefit more people. Thank you! 🌟
 
 [**Grind 75**](https://www.techinterviewhandbook.org/grind75) is a dynamic list of top LeetCode interview questions created in 2023. It's up-to-date and well-chosen. We can personalize it according to our schedule, time constraints, and preferences.
 
