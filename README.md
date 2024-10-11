@@ -2,7 +2,7 @@
 
 > If you find this repository helpful, please give me a star to inspire me to keep it updated and benefit more people. Thank you! 🌟
 
-> NOTE: This repository is marked as complete and I have stopped updating it. If you'd like to see well-commented (PEP8 and Google style) and optimized solutions, check out my ongoing [**LeetCode Grind 169**](https://github.com/open-minded13/leetcode-grind-169-solutions) repository!
+> NOTE: This repository is marked as complete and I have stopped updating it. If you'd like to see well-commented (PEP8 and Google style) and optimized solutions, check out my [**LeetCode Grind 169**](https://github.com/open-minded13/leetcode-grind-169-solutions) repository!
 
 [**Grind 75**](https://www.techinterviewhandbook.org/grind75) is a dynamic list of top LeetCode interview questions created in 2023. It's up-to-date and well-chosen, and we can personalize it according to our schedule, time constraints, and preferences.
 
